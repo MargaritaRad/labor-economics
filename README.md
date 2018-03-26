@@ -23,7 +23,11 @@ We meet Wednesdays between 12:15-13:45 in SR 0.042.
 | 06/20/18  | ...                                                    |
 | 06/27/18  | ...                                                    |
 
-## Lecture 
+## Lecture Outlines
+
+#### [Introduction to the economics of human capital](https://github.com/eisenhauerIO/human_capital/blob/master/distribution/01_intro_human_capital.pdf)
+
+We outline the research program in the economics of human capital.
 
 ## References
 
