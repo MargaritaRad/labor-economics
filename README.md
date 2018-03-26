@@ -23,6 +23,8 @@ We meet Wednesdays between 12:15-13:45 in SR 0.042.
 | 06/20/18  | ...                                                    |
 | 06/27/18  | ...                                                    |
 
+## Lecture 
+
 ## References
 
 *  Heckman, J. J., and Vytlacil, E. J. (2007a). [Econometric evaluation of social programs, Part
