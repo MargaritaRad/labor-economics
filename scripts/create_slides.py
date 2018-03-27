@@ -41,5 +41,5 @@ if __name__ == '__main__':
         subprocess.check_call(cmd, shell=True)
 
     else:
-        
+
         compile_single(is_update)

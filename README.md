@@ -29,7 +29,7 @@ We start on May 9th 2017 and meet Wednesdays between 12:15-15:45 in lecture hall
 
 We outline the research program in the economics of human capital.
 
-#### [Return to schooling](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/02_returns_schooling.pdf)
+#### [Returns to schooling](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/02_returns_schooling.pdf)
 
 We review the literature on the returns to schooling.
 
@@ -72,7 +72,7 @@ We are very happy to welcome two guest lecturers who will provide brief presenta
 
 * https://www.amazon.com/Human-Capital-Theoretical-Empirical-Reference/dp/0226041204
 
-#### Return to schooling
+#### Returns to schooling
 
 * http://jenni.uchicago.edu/papers/pku_2007/Heckman_Lochner_etal_2006_HEE_v1_ch7.pdf
 
