@@ -3,7 +3,7 @@
 We study the economics of human capital. For further questions, please do not hesitate to contact us.
 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/eisenhauerIO/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-<br><br>
+<br>
 
 We start on May 9th 2017 and meet Wednesdays between 12:15-15:45 in lecture hall M and F.
 
