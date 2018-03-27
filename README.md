@@ -29,6 +29,30 @@ We start on May 9th 2017 and meet Wednesdays between 12:15-15:45 in lecture hall
 
 We outline the research program in the economics of human capital.
 
+#### [Return to schooling](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/02_returns_schooling.pdf)
+
+We review the literature on the returns to schooling.
+
+#### [Multidimensionality of skills](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/03_multidimensionality_skills.pdf)
+
+We sharpen our understanding of the multidimensionality of human capital.
+
+#### [Static model of educational choice](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/04_static_model.pdf)
+
+We study the economics and econometrics of the generalized Roy model. We welcome [benediktkauf](https://github.com/benediktkauf) for his lecture on the ``grmpy`` package.
+
+#### [Dynamic model of human capital accumulation](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/04_dynamic_model.pdf)
+
+We study the seminal paper on the career decision of young men. We welcome [janosg](https://github.com/janosg) for his lecture on the ``respy`` package.
+
+#### [Human capital policy](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/06_human_capital_policy.pdf)
+
+We review the literature on alternative policies that foster human capital
+
+#### [Intergenerational transmission of human capital](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/07_intergenerational_transmission.pdf)
+
+We study the mechanisms driving the intergenerational transmission of human capital.
+
 ## Guest Lectures
 
 We are very happy to welcome two guest lecturers who will provide brief presentations of their open source software projects.
