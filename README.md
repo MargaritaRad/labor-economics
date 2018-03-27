@@ -5,7 +5,7 @@ We study the economics of human capital. For further questions, please do not he
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/eisenhauerIO/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 <br><br>
 
-We meet Wednesdays between 12:15-13:45 in SR 0.042.
+We meet Wednesdays between 12:15-15:45 in lecture hall M and F.
 
 **Lecturer** [Philipp Eisenhauer](https://peisenha.github.io/build/html/index.html)
 
@@ -23,11 +23,24 @@ We meet Wednesdays between 12:15-13:45 in SR 0.042.
 | 06/20/18  | ...                                                    |
 | 06/27/18  | ...                                                    |
 
-## Lecture Outlines
+## Lectures
 
 #### [Introduction to the economics of human capital](https://github.com/eisenhauerIO/human_capital/blob/master/distribution/01_intro_human_capital.pdf)
 
 We outline the research program in the economics of human capital.
+
+## Guest Lectures
+
+We are very happy to welcome two guest lecturers who will provide brief presentations of their open source software projects.
+
+### [respy](https://giphy.com/gifs/13HgwGsXF0aiGY/html5) by [janosg](https://github.com/janosg)
+
+``respy`` is an open-source Python package for the simulation and estimation of a prototypical finite-horizon discrete choice dynamic programming model. Please visit their [online documentation](http://respy.readthedocs.io/) for details.
+
+
+### [grmpy](https://giphy.com/gifs/13HgwGsXF0aiGY/html5) by [benediktkauf](https://github.com/benediktkauf)
+
+``grmpy`` is an open-source Python package for the simulation and estimation of the generalized Roy model. It serves as a teaching tool to promote the conceptual framework of the generalized Roy model, illustrate a variety of issues in the econometrics of policy evaluation, and showcase basic software engineering practices. Please visit their [online documentation](http://grmpy.readthedocs.io/) for details.
 
 ## References
 
