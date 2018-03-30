@@ -103,6 +103,8 @@ II: Using the marginal treatment effect to organize alternative economic estimat
 
 * https://www.sciencedirect.com/science/article/pii/S0047272709001418
 
+* https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0297.2010.02387.x
+
 #### Intergenerational transmission of human capital
 
 * https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA6551
