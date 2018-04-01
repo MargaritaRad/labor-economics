@@ -94,11 +94,11 @@ II: Using the marginal treatment effect to organize alternative economic estimat
 
 * Keane, M. P., & Wolpin, K. I. (1997). [The career decisions of young men.](http://www.jstor.org/stable/10.1086/262080?seq=1#page_scan_tab_contents) *Journal of Political Economy, 105*(3), 473–522.
 
-* Keane, M. P., Todd, P. E., & Wolpin, K. I. (2011). [The structural estimation of behavioral models: Discrete choice dynamic programming methods and applications.](https://www.ssc.wisc.edu/~walker/wp/wp-content/uploads/2013/09/KeaneEtalHBLE2011.pdf) In O. Ashenfelter & D. Card (Eds.), *Handbook of labor economics* (Vol. 4a, pp.331–461). Amsterdam, Netherlands: Elsevier Science.
+* Keane, M. P., Todd, P. E., & Wolpin, K. I. (2011). [The structural estimation of behavioral models: Discrete choice dynamic programming methods and applications.](https://www.ssc.wisc.edu/~walker/wp/wp-content/uploads/2013/09/KeaneEtalHBLE2011.pdf) In O. Ashenfelter & D. Card (Eds.), *Handbook of labor economics* (Vol. 4a, pp. 331–461). Amsterdam, Netherlands: Elsevier Science.
 
 #### Human capital policy
 
-* Heckman, J. J., & Krueger, A. B. (2004). *[Inequality in America: What role for human capital policies?.]*(https://mitpress.mit.edu/books/inequality-america) Cambridge, MA: MIT Press.
+* Heckman, J. J., & Krueger, A. B. (2004). *[Inequality in America: What role for human capital policies?.](https://mitpress.mit.edu/books/inequality-america)* Cambridge, MA: MIT Press.
 
 * Heckman, J. J., Moon, S. H., Pinto, R., Savelyev, P. A., & Yavitz, A. (2010). [The rate of return to the HighScope Perry Preschool Program.](https://www.sciencedirect.com/science/article/pii/S0047272709001418) *Journal of Public Economics, 94*(1–2), 114–128.
 
