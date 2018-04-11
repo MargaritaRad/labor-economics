@@ -25,6 +25,10 @@ We start on May 9th 2017 and meet Wednesdays between 12:15-15:45 in lecture hall
 
 ## Lecture Outlines
 
+#### [Course outline](https://github.com/eisenhauerIO/human_capital/blob/master/distribution/00_course_outline.pdf)
+
+We provide a brief overview about the course.
+
 #### [Introduction to the economics of human capital](https://github.com/eisenhauerIO/human_capital/blob/master/distribution/01_intro_human_capital.pdf)
 
 We outline the research program in the economics of human capital.
