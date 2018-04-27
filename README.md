@@ -44,15 +44,11 @@ We sharpen our understanding of the multidimensionality of human capital.
 
 We study the economics and econometrics of the generalized Roy model. We welcome [benediktkauf](https://github.com/benediktkauf) for his lecture on the ``grmpy`` package.
 
-#### [Dynamic model of human capital accumulation](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/04_dynamic_model.pdf)
+#### [Dynamic model of human capital accumulation](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/05_dynamic_model.pdf)
 
 We study the seminal paper on the career decision of young men. We welcome [janosg](https://github.com/janosg) for his lecture on the ``respy`` package.
 
-#### [Human capital policy](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/06_human_capital_policy.pdf)
-
-We review the literature on alternative policies that foster human capital
-
-#### [Intergenerational transmission of human capital](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/07_intergenerational_transmission.pdf)
+#### [Intergenerational transmission of human capital](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/06_intergenerational_transmission.pdf)
 
 We study the mechanisms driving the intergenerational transmission of human capital.
 
