@@ -23,6 +23,11 @@ def g_prime(x):
     return 0.71 * (x ** (- 0.29))
 
 
+def crit_func(productivity, r, t, delta, theta, h_t, s_t):
+
+    return (- productivity * np.exp(-r * t) + lambda_t(t_upper, productivity, r, t, delta) *
+                theta * g_prime(s_t * h_t)) ** 2
+
 productivity = 0.75
 delta = 0.06
 r = 0.05
@@ -41,16 +46,11 @@ for t in t_grid:
         h_t = (1 - delta) * h_lagged + theta * g(s_t * h_lagged)
 
 
-    def crit_func(productivity, r, t, delta, theta, h_t, s_t):
 
-        return (- productivity * np.exp(-r * t) + lambda_t(t_upper, productivity, r, t, delta) *
-                theta * g_prime(s_t * h_t)) ** 2
-
-
-    crit_func = partial(crit_func, productivity, r, t, delta, theta, h_t)
+    crit_func = partial(crit_func, productivity, r, t, delta, theta)
     crit_func = np.vectorize(crit_func)
 
-    s_t = s_grid[np.argmin(crit_func(s_grid))]
+    s_t = s_grid[np.argmin(crit_func(h_t, s_grid))]
 
     h_lagged = h_t
 
