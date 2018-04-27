@@ -16,11 +16,10 @@ We start on May 9th 2017 and meet Wednesdays between 12:15-15:45 in lecture hall
 | Date      | Topic                                                     |
 | ----------| --------------------------------------------------------- |
 | 05/09/18  | Introduction to the economics of human capital            |
-| 05/16/18  | Returns to schooling                                      |
-| 05/30/18  | Multidimensionality of skills                             |
-| 06/06/18  | Static model of educational choice                        |
-| 06/13/18  | Dynamic model of human capital accumulation               |
-| 06/20/18  | Human capital policy                                      |
+| 05/30/18  | Returns to schooling                                      |
+| 06/06/18  | Multidimensionality of skills                             |
+| 06/13/18  | Static model of educational choice                        |
+| 06/20/18  | Dynamic model of human capital accumulation               |
 | 06/27/18  | Intergenerational transmission of human capital           |
 
 ## Lecture Outlines
@@ -31,7 +30,7 @@ We provide a brief overview about the course.
 
 #### [Introduction to the economics of human capital](https://github.com/eisenhauerIO/human_capital/blob/master/distribution/01_intro_human_capital.pdf)
 
-We outline the research program in the economics of human capital.
+We outline the research program in the economics of human capital. We start by reviewing some facts about the distribution of human capital across and within countries and then study two seminal models emphasizing different mechanisms how education affects labor market outcomes.
 
 #### [Returns to schooling](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/02_returns_schooling.pdf)
 
