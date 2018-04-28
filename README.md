@@ -91,8 +91,8 @@ II: Using the marginal treatment effect to organize alternative economic estimat
 
 * Heckman, J. J., & Mosso, S. (2014). [The economics of human development and social mobility.](https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080213-040753) *Annual Review of Economics, 6*(1), 689–733.
 
-[![Build Status](https://travis-ci.org/eisenhauerIO/economics_of_human_capital.svg?branch=master)](https://travis-ci.org/eisenhauerIO/economics_of_human_capital)
-
 ## Iterations <a name="iterations"></a>
 
-* **Summer Quarter 2018**, Graduate Program at the University of Bonn, please see [here](https://github.com/policyMetrics/course/blob/master/iterations/bonn_ws_2017/README.md) for details.
+* **Summer Quarter 2018**, Graduate Program at the University of Bonn, please see [here](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/iterations/bonn_ss_2018/README.md) for details.
+
+[![Build Status](https://travis-ci.org/eisenhauerIO/economics_of_human_capital.svg?branch=master)](https://travis-ci.org/eisenhauerIO/economics_of_human_capital)
