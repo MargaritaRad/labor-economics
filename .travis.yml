@@ -5,7 +5,7 @@ python:
 
 before_install:
     - sudo apt-get update
-    - sudo apt-get install texlive-most
+    - sudo apt-get install texlive texlive-science
     - sudo apt-get install pdftk
 
 script:
