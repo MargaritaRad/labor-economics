@@ -5,26 +5,13 @@ We study the economics of human capital. For further questions, please do not he
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/eisenhauerIO/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 <br>
 
-We start on May 9th 2017 and meet Wednesdays between 12:15-15:45 in lecture hall M and F.
+Please use the table of content to navigate the rest of the material.
 
-**Lecturer** [Philipp Eisenhauer](https://peisenha.github.io/build/html/index.html)
+1. [Lectures](#lectures)
+2. [References](#references)
+3. [Iterations](#iterations)
 
-**Assistant** [Benedikt Kauf](https://github.com/benediktkauf)
-
-[![Build Status](https://travis-ci.org/eisenhauerIO/economics_of_human_capital.svg?branch=master)](https://travis-ci.org/eisenhauerIO/economics_of_human_capital)
-
-## Lecture Plan
-
-| Date      | Topic                                                     |
-| ----------| --------------------------------------------------------- |
-| 05/09/18  | Introduction to the economics of human capital            |
-| 05/30/18  | Returns to schooling                                      |
-| 06/06/18  | Multidimensionality of skills                             |
-| 06/13/18  | Static model of educational choice                        |
-| 06/20/18  | Dynamic model of human capital accumulation               |
-| 06/27/18  | Intergenerational transmission of human capital           |
-
-## Lecture Outlines
+## Lectures <a name="lectures"></a>
 
 We provide a brief description of the individual lectures and link the their slides. A slide deck for the complete course is available [here](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/course_deck.pdf).
 
@@ -46,30 +33,21 @@ We sharpen our understanding of the multidimensionality of human capital.
 
 #### [Static model of educational choice](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/04_static_model.pdf)
 
-We study the economics and econometrics of the generalized Roy model. We welcome [benediktkauf](https://github.com/benediktkauf) for his lecture on the ``grmpy`` package.
+We study the economics and econometrics of the generalized Roy model. We explore the capabilities of the ``grmpy`` package.
 
 #### [Dynamic model of human capital accumulation](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/05_dynamic_model.pdf)
 
-We study the seminal paper on the career decision of young men. We welcome [janosg](https://github.com/janosg) for his lecture on the ``respy`` package.
+We study the seminal paper on the career decision of young men. We explore the capabilities of the ``respy`` package.
 
 #### [Intergenerational transmission of human capital](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/06_intergenerational_transmission.pdf)
 
 We study the mechanisms driving the intergenerational transmission of human capital.
 
-## Guest Lectures
+#### [Human capital policy](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/07_human_capital_policy.pdf)
 
-We are very happy to welcome two guest lecturers who will provide brief presentations of their open source software projects.
+We review examples of human capital policy and assess their effectiveness.
 
-#### [respy](https://giphy.com/gifs/13HgwGsXF0aiGY/html5) by [janosg](https://github.com/janosg)
-
-``respy`` is an open-source Python package for the simulation and estimation of a prototypical finite-horizon discrete choice dynamic programming model. Please visit the [online documentation](http://respy.readthedocs.io/) for details.
-
-
-#### [grmpy](https://giphy.com/gifs/13HgwGsXF0aiGY/html5) by [benediktkauf](https://github.com/benediktkauf)
-
-``grmpy`` is an open-source Python package for the simulation and estimation of the generalized Roy model. It serves as a teaching tool to promote the conceptual framework of the generalized Roy model, illustrate a variety of issues in the econometrics of policy evaluation, and showcase basic software engineering practices. Please visit the [online documentation](http://grmpy.readthedocs.io/) for details.
-
-## References
+## References <a name="references"></a>
 
 #### Introduction to the economics of human capital
 
@@ -112,3 +90,9 @@ II: Using the marginal treatment effect to organize alternative economic estimat
 * Cunha, F., Heckman, J. J., & Schennach, S. M. (2010). [Estimating the technology of cognitive and noncognitive skill formation.](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA6551) *Econometrica, 78*(3), 883–931.
 
 * Heckman, J. J., & Mosso, S. (2014). [The economics of human development and social mobility.](https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080213-040753) *Annual Review of Economics, 6*(1), 689–733.
+
+[![Build Status](https://travis-ci.org/eisenhauerIO/economics_of_human_capital.svg?branch=master)](https://travis-ci.org/eisenhauerIO/economics_of_human_capital)
+
+## Iterations <a name="iterations"></a>
+
+* **Summer Quarter 2018**, Graduate Program at the University of Bonn, please see [here](https://github.com/policyMetrics/course/blob/master/iterations/bonn_ws_2017/README.md) for details.
