@@ -5,7 +5,7 @@ python:
 
 addons:
   apt:
-    packages: common_packages
+    packages: &common_packages
       - pdftk
 script:
   - travis_wait create_project
