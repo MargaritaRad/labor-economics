@@ -9,4 +9,5 @@ before_install:
     - sudo apt-get install pdftk
 
 script:
+    - texhash
     - travis_wait ./create_project
