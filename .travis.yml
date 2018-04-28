@@ -4,4 +4,4 @@ python:
   - 3.6
 
 script:
-  - travis_wait create_project
+  - travis_wait ./create_project
