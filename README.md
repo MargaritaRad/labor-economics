@@ -77,6 +77,12 @@ II: Using the marginal treatment effect to organize alternative economic estimat
 
 * Keane, M. P., Todd, P. E., & Wolpin, K. I. (2011). [The structural estimation of behavioral models: Discrete choice dynamic programming methods and applications.](https://www.ssc.wisc.edu/~walker/wp/wp-content/uploads/2013/09/KeaneEtalHBLE2011.pdf) In O. Ashenfelter & D. Card (Eds.), *Handbook of labor economics* (Vol. 4a, pp. 331–461). Amsterdam, Netherlands: Elsevier Science.
 
+#### Intergenerational transmission of human capital
+
+* Cunha, F., Heckman, J. J., & Schennach, S. M. (2010). [Estimating the technology of cognitive and noncognitive skill formation.](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA6551) *Econometrica, 78*(3), 883–931.
+
+* Heckman, J. J., & Mosso, S. (2014). [The economics of human development and social mobility.](https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080213-040753) *Annual Review of Economics, 6*(1), 689–733.
+
 #### Human capital policy
 
 * Heckman, J. J., & Krueger, A. B. (2004). *[Inequality in America: What role for human capital policies?.](https://mitpress.mit.edu/books/inequality-america)* Cambridge, MA: MIT Press.
@@ -84,12 +90,6 @@ II: Using the marginal treatment effect to organize alternative economic estimat
 * Heckman, J. J., Moon, S. H., Pinto, R., Savelyev, P. A., & Yavitz, A. (2010). [The rate of return to the HighScope Perry Preschool Program.](https://www.sciencedirect.com/science/article/pii/S0047272709001418) *Journal of Public Economics, 94*(1–2), 114–128.
 
 * Card, D., Kluve, J., & Weber, A. (2010). [Active labour market policy evaluations: A meta‐analysis.](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0297.2010.02387.x) *The Economic Journal, 120*(548), F452–F477.
-
-#### Intergenerational transmission of human capital
-
-* Cunha, F., Heckman, J. J., & Schennach, S. M. (2010). [Estimating the technology of cognitive and noncognitive skill formation.](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA6551) *Econometrica, 78*(3), 883–931.
-
-* Heckman, J. J., & Mosso, S. (2014). [The economics of human development and social mobility.](https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080213-040753) *Annual Review of Economics, 6*(1), 689–733.
 
 ## Iterations <a name="iterations"></a>
 
