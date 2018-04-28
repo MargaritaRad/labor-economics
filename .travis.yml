@@ -1,7 +1,11 @@
 language: python
 python:
-  - 3.5
-  - 3.6
+    - 3.5
+    - 3.6
+
+before_install:
+    - sudo apt-get update
+    - sudo apt-get install texlive-latex-extra
 
 script:
-  - travis_wait ./create_project
+    - travis_wait ./create_project
