@@ -1,0 +1,4 @@
+name: economics_of_human_capital
+dependencies:
+  - python=3.5
+  - matplotlib

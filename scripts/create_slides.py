@@ -34,11 +34,13 @@ if __name__ == '__main__':
 
         # I also want to have a complete deck of slides available. This is not intended for
         # public distribution.
-        fnames= []
+        fnames = []
         for fname in sorted(glob.glob("0*")):
             fnames += [fname + '/main.pdf']
         cmd = 'pdftk ' + ' '.join(fnames) + ' cat output course_deck.pdf'
         subprocess.check_call(cmd, shell=True)
+        if is_update:
+            shutil.copy('course_deck.pdf', '../distribution/course_deck.pdf')
 
     else:
 

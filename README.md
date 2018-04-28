@@ -24,6 +24,8 @@ We start on May 9th 2017 and meet Wednesdays between 12:15-15:45 in lecture hall
 
 ## Lecture Outlines
 
+We provide a brief description of the individual lectures and link the their slides. A slide deck for the complete course is available [here](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/course_deck.pdf). 
+
 #### [Course outline](https://github.com/eisenhauerIO/human_capital/blob/master/distribution/00_course_outline.pdf)
 
 We provide a brief overview about the course.
