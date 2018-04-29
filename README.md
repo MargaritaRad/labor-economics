@@ -15,10 +15,6 @@ Please use the table of content to navigate the rest of the material.
 
 We provide a brief description of the individual lectures and link the their slides. A slide deck for the complete course is available [here](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/course_deck.pdf).
 
-#### [Course outline](https://github.com/eisenhauerIO/human_capital/blob/master/distribution/00_course_outline.pdf)
-
-We provide a brief overview about the course.
-
 #### [Introduction to the economics of human capital](https://github.com/eisenhauerIO/human_capital/blob/master/distribution/01_intro_human_capital.pdf)
 
 We outline the research program in the economics of human capital. We start by reviewing some facts about the distribution of human capital across and within countries and then study two seminal models emphasizing different mechanisms how education affects labor market outcomes.

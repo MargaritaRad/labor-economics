@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""This module creates the full project. This is useful for the continous integration workflow."""
+"""This module creates the full project. This is useful for the continuous integration workflow."""
 import subprocess
 import os
 
