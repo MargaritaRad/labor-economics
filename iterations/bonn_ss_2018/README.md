@@ -19,7 +19,7 @@ We start on May 9th 2017 and meet Wednesdays between 12:15-15:45 in lecture hall
 
 ## Lectures
 
-The core lectures are available [here](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/README.md)
+The core lectures are available [here](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/README.md).
 
 #### [Course overview](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/iterations/bonn_ss_2018/00_course_outline.pdf)
 
