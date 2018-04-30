@@ -8,7 +8,3 @@ os.chdir('lectures')
 subprocess.check_call(['./create_slides', '--update'])
 os.chdir('../')
 
-# We build all figures and compile the handout
-os.chdir('figures')
-subprocess.check_call(['./create_figures'])
-os.chdir('../')
