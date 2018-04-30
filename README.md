@@ -18,33 +18,33 @@ Please use the table of content to navigate the rest of the material.
 
 ## Lectures <a name="lectures"></a>
 
-We provide a brief description of the individual lectures and link the their slides. A slide deck for the complete course is available [here](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/course_deck.pdf).
+We provide a brief description of the individual lectures and link the their slides. A slide deck for the complete course is available [here](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/course_deck.pdf).
 
-#### [Introduction to the economics of human capital](https://github.com/eisenhauerIO/human_capital/blob/master/distribution/01_intro_human_capital.pdf)
+#### [Introduction to the economics of human capital](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/01_intro_human_capital.pdf)
 
 We outline the research program in the economics of human capital. We start by reviewing some facts about the distribution of human capital across and within countries and then study two seminal models emphasizing different mechanisms how education affects labor market outcomes.
 
-#### [Returns to schooling](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/02_returns_schooling.pdf)
+#### [Returns to schooling](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/02_returns_schooling.pdf)
 
 We review the literature on the returns to schooling.
 
-#### [Multidimensionality of skills](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/03_multidimensionality_skills.pdf)
+#### [Multidimensionality of skills](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/03_multidimensionality_skills.pdf)
 
 We sharpen our understanding of the multidimensionality of human capital.
 
-#### [Static model of educational choice](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/04_static_model.pdf)
+#### [Static model of educational choice](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/04_static_model.pdf)
 
 We study the economics and econometrics of the generalized Roy model. We explore the capabilities of the ``grmpy`` package.
 
-#### [Dynamic model of human capital accumulation](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/05_dynamic_model.pdf)
+#### [Dynamic model of human capital accumulation](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/05_dynamic_model.pdf)
 
 We study the seminal paper on the career decision of young men. We explore the capabilities of the ``respy`` package.
 
-#### [Intergenerational transmission of human capital](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/06_intergenerational_transmission.pdf)
+#### [Intergenerational transmission of human capital](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/06_intergenerational_transmission.pdf)
 
 We study the mechanisms driving the intergenerational transmission of human capital.
 
-#### [Human capital policy](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/distribution/07_human_capital_policy.pdf)
+#### [Human capital policy](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/07_human_capital_policy.pdf)
 
 We review examples of human capital policy and assess their effectiveness.
 
@@ -98,6 +98,6 @@ ii: Using the marginal treatment effect to organize alternative economic estimat
 
 ## Iterations <a name="iterations"></a>
 
-* **Summer Quarter 2018**, Graduate Program at the University of Bonn, please see [here](https://github.com/eisenhauerIO/economics_of_human_capital/blob/master/iterations/bonn_ss_2018/README.md) for details.
+* **Summer Quarter 2018**, Graduate Program at the University of Bonn, please see [here](https://github.com/HumanCapitalEconomics/course/blob/master/iterations/bonn_ss_2018/README.md) for details.
 
 [![Build Status](https://travis-ci.org/eisenhauerIO/economics_of_human_capital.svg?branch=master)](https://travis-ci.org/eisenhauerIO/economics_of_human_capital)
