@@ -54,6 +54,10 @@ We review examples of human capital policy and assess their effectiveness.
 
 * Becker, G. S. (1994). *Human capital: A theoretical and empirical analysis, with special reference to education* (3rd ed.). Chicago, IL: Chicago University Press.
 
+* Ben-Porath, Y. (1967). [The production of human capital and the life cycle of earnings.](http://www.uib.cat/depart/deaweb/personal/profesores/personalpages/hdeeasp9/workingpapers/bibliosecpub/benporath1967.pdf) *Journal of Political Economy, 75*(4, Part 1), 352–365.
+
+* Spence, M. (1973). [Job market signaling.](http://www.jstor.org/stable/pdf/1882010.pdf?refreqid=excelsior:53c3055c92edc9426d2082d61d39025e) *Quarterly Journal of Economics, 87*(3), 355–374.
+
 #### Returns to schooling
 
 * Heckman, J. J., Lochner, L. J., & Todd, P. E. (2006). [Earnings functions, rates of return and treatment effects: The Mincer equation and beyond.](http://jenni.uchicago.edu/papers/pku_2007/Heckman_Lochner_etal_2006_HEE_v1_ch7.pdf) In E. A. Hanushek & F. Welch (Eds.), *Handbook of the economics of education* (Vol. 1, pp. 307–458). Amsterdam, Netherlands: North-Holland.
