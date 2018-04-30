@@ -1,15 +1,20 @@
 # Course on the Economics of Human Capital
 
+> Although it is obvious that people acquire useful skills and knowledge, it is not obvious that these skills and
+knowledge are a form of capital, that this capital is in substantial part a product of deliberate investment, that it has grown in Western societies at a much faster rate than conventional (nonhuman) capital, and that its growth may well be the most distinctive feature of the
+economic system. It has been widely observed that increases in national output have been large compared with the increases of land, man-hours and physical reproducible capital. Investment in human capital is probably the major explanation for this difference. (Schultz, 1961)
+
 We study the economics of human capital. For further questions, please do not hesitate to contact us.
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/eisenhauerIO/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/HumanCapitalEconomics/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 <br>
 
 Please use the table of content to navigate the rest of the material.
 
 1. [Lectures](#lectures)
-2. [References](#references)
-3. [Iterations](#iterations)
+2. [Readings](#readings)
+3. [References](#references)
+4. [Iterations](#iterations)
 
 ## Lectures <a name="lectures"></a>
 
@@ -43,7 +48,7 @@ We study the mechanisms driving the intergenerational transmission of human capi
 
 We review examples of human capital policy and assess their effectiveness.
 
-## References <a name="references"></a>
+## Readings <a name="readings"></a>
 
 #### Introduction to the economics of human capital
 
@@ -86,6 +91,10 @@ II: Using the marginal treatment effect to organize alternative economic estimat
 * Heckman, J. J., Moon, S. H., Pinto, R., Savelyev, P. A., & Yavitz, A. (2010). [The rate of return to the HighScope Perry Preschool Program.](https://www.sciencedirect.com/science/article/pii/S0047272709001418) *Journal of Public Economics, 94*(1–2), 114–128.
 
 * Card, D., Kluve, J., & Weber, A. (2010). [Active labour market policy evaluations: A meta‐analysis.](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0297.2010.02387.x) *The Economic Journal, 120*(548), F452–F477.
+
+## References <a name="references"></a>
+
+* ...
 
 ## Iterations <a name="iterations"></a>
 
