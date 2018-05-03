@@ -11,6 +11,7 @@ We start on May 9th 2017 and meet Wednesdays between 12:15-15:45 in lecture hall
 | ----------| --------------------------------------------------------- |
 | 05/09/18  | Course overview                                           |
 |           | Introduction to the economics of human capital            |
+|           | Introduction to the NLSY79                                |
 | 05/30/18  | Returns to schooling                                      |
 | 06/06/18  | Multidimensionality of skills                             |
 | 06/13/18  | Static model of educational choice                        |
@@ -24,6 +25,10 @@ The core lectures are available [here](https://github.com/HumanCapitalEconomics/
 #### [Course overview](https://github.com/HumanCapitalEconomics/course/blob/master/iterations/bonn_ss_2018/00_course_outline.pdf)
 
 I briefly review some administrative issues regarding the course.
+
+#### [Introduction to the NLSY79](https://github.com/OpenSourceEconomics/nlsy_dataset/blob/master/distribution/presentation.pdf)
+
+I present an overview on the NLSY79 dataset as we will encounter numerous empirical analysis based on the dataset throughout the course.
 
 ## Guest Lectures
 
