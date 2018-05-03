@@ -98,13 +98,9 @@ ii: Using the marginal treatment effect to organize alternative economic estimat
 
 ## References <a name="references"></a>
 
-* Ben-Porath, Y. (1967). The production of human capital and the life cycle of earnings. *Journal of Political Economy, 75*(4, Part 1), 352–365.
-
 * Cahuc, P., & Zylberberg, A. (2004). *Labor Economics.* Cambridge, MA: MIT Press.
 
 * Schultz, T. (1961). Investment in human capital. *American Economic Review, 51*(1), 1–17.
-
-* Spence, M. (1973). Job market signaling. *Quarterly Journal of Economics, 87*(3), 355–374.
 
 * Weiss, Y. (1986). The determination of life cycle earnings: A survey. In O. Ashenfelter & R. Layard (Eds.), *Handbook of labor economics* (Vol. 1, pp. 603–640). Amsterdam, Netherlands: North-Holland Publishing Company.
 
