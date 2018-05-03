@@ -22,7 +22,7 @@ We provide a brief description of the individual lectures and link the their sli
 
 #### [Introduction to the economics of human capital](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/01_intro_human_capital.pdf)
 
-We outline the research program in the economics of human capital. We start by reviewing some facts about the distribution of human capital across and within countries and then study two seminal models emphasizing different mechanisms how education affects labor market outcomes.
+We outline the research program in the economics of human capital. We start by reviewing some facts about the distribution of human capital across and within countries and then study two seminal models emphasizing different mechanisms how education affects labor market outcomes. We present an overview on the National Longitudinal Survey of Youth 1979 with a focus on human capital information, the slides are available [here](https://github.com/OpenSourceEconomics/nlsy_dataset/blob/master/distribution/presentation.pdf).
 
 #### [Returns to schooling](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/02_returns_schooling.pdf)
 
