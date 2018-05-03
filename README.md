@@ -58,6 +58,8 @@ We review examples of human capital policy and assess their effectiveness.
 
 * Spence, M. (1973). [Job market signaling.](http://www.jstor.org/stable/pdf/1882010.pdf?refreqid=excelsior:53c3055c92edc9426d2082d61d39025e) *Quarterly Journal of Economics, 87*(3), 355–374.
 
+* Weiss, Y. (1986). The determination of life cycle earnings: A survey. In O. Ashenfelter & R. Layard (Eds.), *Handbook of labor economics* (Vol. 1, pp. 603–640). Amsterdam, Netherlands: North-Holland Publishing Company.
+
 #### Returns to schooling
 
 * Heckman, J. J., Lochner, L. J., & Todd, P. E. (2006). [Earnings functions, rates of return and treatment effects: The Mincer equation and beyond.](http://jenni.uchicago.edu/papers/pku_2007/Heckman_Lochner_etal_2006_HEE_v1_ch7.pdf) In E. A. Hanushek & F. Welch (Eds.), *Handbook of the economics of education* (Vol. 1, pp. 307–458). Amsterdam, Netherlands: North-Holland.
@@ -101,8 +103,6 @@ ii: Using the marginal treatment effect to organize alternative economic estimat
 * Cahuc, P., & Zylberberg, A. (2004). *Labor Economics.* Cambridge, MA: MIT Press.
 
 * Schultz, T. (1961). Investment in human capital. *American Economic Review, 51*(1), 1–17.
-
-* Weiss, Y. (1986). The determination of life cycle earnings: A survey. In O. Ashenfelter & R. Layard (Eds.), *Handbook of labor economics* (Vol. 1, pp. 603–640). Amsterdam, Netherlands: North-Holland Publishing Company.
 
 ## Iterations <a name="iterations"></a>
 
