@@ -58,7 +58,7 @@ We review examples of human capital policy and assess their effectiveness.
 
 * Spence, M. (1973). [Job market signaling.](http://www.jstor.org/stable/pdf/1882010.pdf?refreqid=excelsior:53c3055c92edc9426d2082d61d39025e) *Quarterly Journal of Economics, 87*(3), 355–374.
 
-* Weiss, Y. (1986). The determination of life cycle earnings: A survey. In O. Ashenfelter & R. Layard (Eds.), *Handbook of labor economics* (Vol. 1, pp. 603–640). Amsterdam, Netherlands: North-Holland Publishing Company.
+* Weiss, Y. (1986). [The determination of life cycle earnings: A survey.](https://www.sciencedirect.com/science/article/pii/S1573446386010143) In O. Ashenfelter & R. Layard (Eds.), *Handbook of labor economics* (Vol. 1, pp. 603–640). Amsterdam, Netherlands: North-Holland Publishing Company.
 
 #### Returns to schooling
 
