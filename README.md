@@ -62,7 +62,7 @@ We review examples of human capital policy and assess their effectiveness.
 
 #### Returns to schooling
 
-* Heckman, J. J., Lochner, L. J., & Todd, P. E. (2006). [Earnings functions, rates of return and treatment effects: The Mincer equation and beyond.](http://jenni.uchicago.edu/papers/pku_2007/Heckman_Lochner_etal_2006_HEE_v1_ch7.pdf) In E. A. Hanushek & F. Welch (Eds.), *Handbook of the economics of education* (Vol. 1, pp. 307–458). Amsterdam, Netherlands: North-Holland.
+* Heckman, J. J., Lochner, L. J., & Todd, P. E. (2006). [Earnings functions, rates of return and treatment effects: The Mincer equation and beyond.](http://jenni.uchicago.edu/papers/pku_2007/Heckman_Lochner_etal_2006_HEE_v1_ch7.pdf) In E. A. Hanushek & F. Welch (Eds.), *Handbook of the economics of education* (Vol. 1, pp. 307–458). Amsterdam, Netherlands: North-Holland Publishing Company.
 
 #### Multidimensionality of skills
 
