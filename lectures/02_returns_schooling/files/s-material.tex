@@ -69,7 +69,6 @@ $\Rightarrow$ How to interpret the \textit{Mincer Coefficient} $\rho_s$?
 \begin{align*}
 V(s) = Y(s)\int_s^T e^{-rt} dt = \frac{Y(s)}{r}(e^{-rs} - e^{-rT})
 \end{align*}
-
 \end{frame}
 
 \begin{frame}
@@ -493,4 +492,51 @@ e^{(\rho_s - r)s_1} & = e^{(\rho_s - r) s_2} \\
 \begin{center}
 \scalebox{0.75}{\includegraphics{fig-irr-college}}
 \end{center}
+\end{frame}
+
+\begin{frame}
+	\begin{align*}
+	\ln{Y(s,x)} & = \ln{P_{s+x}} + \ln{(1 - k_{s+x})} \\
+	& \approx \ln{P_s} + \rho_0 \sum^{x - 1}_{j=0} k_{s+j} - k_{s+x}
+	\end{align*}
+	
+	Further, using the assumption of linearly declining investment yields
+	
+	\begin{align*}
+	\ln{Y(s,x)} \approx \ln{P_s} + \kappa \left(\rho_0 \sum^{x - 1}_{j=0} (1 - j/T) - (1 - x/T)\right) \\
+	\end{align*}
+\end{frame}
+
+\begin{frame}
+	Assuming only initial earnings potential $(P_s)$ and investment levels $(\kappa)$ vary in the population, the variance of log earnings is given by
+	
+	\begin{align*}
+	Var(\ln{Y(s,x)}) & = Var(\ln{P_s}) \\
+	& + \left(\rho_0 \sum^{x - 1}_{j=0} (1 - j/T) - (1 - x/T)\right)^2 Var(\kappa) \\
+	& + 2\left(\rho_0 \sum^{x - 1}_{j=0} (1 - j/T) - (1 - x/T)\right) COV(\ln{P_s},k).
+	\end{align*}
+\end{frame}
+
+\begin{frame}
+	If $\kappa$ and $\ln{P_s}$ are uncorrelated, then earnings are minimized (and equal to $Var(\ln{P_s})$)
+	when
+	
+	\begin{align*}
+	\rho_0 \sum^{x - 1}_{j=0} (1 - j/T) = 1 - x/T, or \\
+	\\
+	\rho_0\left(x - \frac{x(x - 1)}{2T}\right) = \rho_0(1 - x/T).
+	\end{align*}
+\end{frame}
+
+\begin{frame}
+	Clearly, $\lim_{T\to\infty} x^* = \frac{1}{\rho_0}$, so the variance minimizing age is $\frac{1}{\rho_0}$ when the work-life is long. More generally, re-arranging terms and solving for the root of this equation, yields the variance minimizing experience level of \\
+	
+	\begin{align*}
+	x^* & = T + \frac{1}{2} + \frac{1}{\rho_0} - \sqrt{\left(T + \frac{1}{2} + \frac{1}{\rho_0}\right)^2 - \frac{2T}{\rho_0}} \\
+	& \approx \left(\rho_0 + \frac{\rho_0}{2T} + \frac{1}{T}\right)^{-1},
+	\end{align*}
+\end{frame}
+
+\begin{frame}
+	The final approximation comes from a first-order Taylor approximation of the square root term around the squared term inside. The approximation suggests that the variance minimizing age will generally be less than or equal to $\frac{1}{\rho_0}$, with the difference disappearing as $T$ grows large.
 \end{frame}
