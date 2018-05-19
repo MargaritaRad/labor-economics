@@ -43,7 +43,7 @@ Why are returns to education important?
 \begin{frame}\nocite{Mincer.1958,Mincer.1974}
 \textbf{Mincer Equation}\\
 \begin{align*}
-\ln Y(s, x) = \alpha + \rho_s s + \beta_0 x + \beta_1 x^2 + \epsilon\\
+\ln{Y(s, x)} = \alpha + \rho_s s + \beta_0 x + \beta_1 x^2 + \epsilon\\
 \end{align*}
 $\Rightarrow$ How to interpret the \textit{Mincer Coefficient} $\rho_s$?
 \end{frame}
@@ -75,7 +75,7 @@ V(s) = Y(s)\int_s^T e^{-rt} dt = \frac{Y(s)}{r}(e^{-rs} - e^{-rT})
 
 Equalizing present value of earnings across schooling levels:
 \begin{align*}
-\ln Y(s) = \ln Y(0) + r s + \ln\left(\frac{1 -e^{-rs}}{1 - e^{-r(T - s)}}\right) \\
+\ln{Y(s)} = \ln{Y(0)} + r s + \ln{\left(\frac{1 -e^{-rs}}{1 - e^{-r(T - s)}}\right)} \\
 \end{align*}
 
 $\Rightarrow$ $\rho_s$ equals the market interest rate and the internal rate of return to schooling by construction.
@@ -114,8 +114,8 @@ Model Features:
 \begin{align*}
 P_t & \equiv P_{t - 1} (1 + k_{t - 1} \rho_{t - 1}) \equiv \prod^{t - 1}_{j= 0} (1 + \rho_jk_j)P_0 \\
 & \\
-\ln P_t & \equiv \ln P_0  + s \ln(1 + \rho_s) + \sum^{t -1}_{j=s} \ln(1 + \rho_0 k_j) \\
-& \approx  \ln P_0 + s \rho_s + \rho_0 \sum^{t - 1}_{j=s} k_j
+\ln{P_t} & \equiv \ln{P_0}  + s \ln{(1 + \rho_s)} + \sum^{t-1}_{j=s} \ln{(1 + \rho_0 k_j)} \\
+& \approx  \ln{P_0} + s \rho_s + \rho_0 \sum^{t - 1}_{j=s} k_j
 \end{align*}
 \end{frame}
 
@@ -124,7 +124,7 @@ P_t & \equiv P_{t - 1} (1 + k_{t - 1} \rho_{t - 1}) \equiv \prod^{t - 1}_{j= 0} 
 \begin{frame}
 Assuming linearly declining rate of post-school investment:
 \begin{align*}
-k_{s + x} = \kappa\left( 1 - \frac{x}{T}\right),\text{where} \quad x = t - s
+k_{s + x} = \kappa\left( 1 - x/T\right),\text{where} \quad x = t - s
 \end{align*}
 \end{frame}
 
@@ -136,12 +136,12 @@ k_{s + x} = \kappa\left( 1 - \frac{x}{T}\right),\text{where} \quad x = t - s
 
 \begin{frame}
  \begin{align*}
- \ln P_{x + s}  \approx \ln P_0 + s\rho_s + \left(\rho_0 \kappa + \frac{\rho_0\kappa}{2T}\right)x - \frac{\rho_0\kappa}{2T} x^2 \\
+ \ln{P_{x + s}}  \approx \ln{P_0} + s\rho_s + \left(\rho_0 \kappa + \frac{\rho_0\kappa}{2T}\right)x - \frac{\rho_0\kappa}{2T} x^2 \\
  \end{align*}
 Accounting for the difference in potential and observed earnings:
 \begin{align*}
-\ln Y(s, x) & = \ln P_{x + s} - \kappa\left(1 - \frac{x}{T}\right) \\
-            & = [\ln P_0 - \kappa] + \rho_s s + \left(\rho_0\kappa + \frac{\rho_0\kappa}{2T} + \frac{\kappa}{T}\right) x - \frac{\rho_0\kappa}{2T}x^2
+\ln{Y(s, x)} & = \ln{P_{x + s}} - \kappa\left(1 - x/T\right) \\
+            & = [\ln{P_0} - \kappa] + \rho_s s + \left(\rho_0\kappa + \frac{\rho_0\kappa}{2T} + \frac{\kappa}{T}\right) x - \frac{\rho_0\kappa}{2T}x^2
 \end{align*}
 $\Rightarrow$ $\rho_s$ is the average earnings increase with schooling
 \end{frame}
@@ -153,7 +153,7 @@ $\Rightarrow$ $\rho_s$ is the average earnings increase with schooling
 \end{align*}
 where
 \begin{align*}
-\alpha & =\ln P_0 - \kappa \\
+\alpha & =\ln{P_0} - \kappa \\
 \beta_0 & = \left(\rho_0\kappa + \frac{\rho_0\kappa}{2T} + \frac{\kappa}{T}\right) \\
 \beta_1 & = -\frac{\rho_0\kappa}{2T}
 \end{align*}
@@ -162,7 +162,7 @@ where
 \begin{frame}
 \textbf{Random Coefficient Version}
 \begin{align*}
-\ln Y(s_i, x_i) = \alpha_{i} + \rho_{si} s_i + \beta_{0i} x_i + \beta_{1i} x_i^2
+\ln{Y(s_i, x_i)} = \alpha_{i} + \rho_{si} s_i + \beta_{0i} x_i + \beta_{1i} x_i^2
 \end{align*}
 and let
 \begin{align*}
@@ -175,7 +175,7 @@ and let
 \begin{frame}
 Dropping individual subscripts ...
 \begin{align*}
-\ln Y(s, x) & = \bar{\alpha} + \bar{\rho}_s s + \bar{\beta}_{0} x + \bar{\beta}_{1} x^2 \\
+\ln{Y(s, x)} & = \bar{\alpha} + \bar{\rho}_s s + \bar{\beta}_{0} x + \bar{\beta}_{1} x^2 \\
                 & + \underbrace{[(\alpha - \bar{\alpha}) + (\rho_s - \bar{\rho}_s) s + (\beta_0 - \bar{\beta}_0)x + (\beta_1 - \bar{\beta}_1)x^2 ]}_{\epsilon}\\
 \end{align*}
 $\Rightarrow$ If the schooling decision is determined by individual returns, then we are back in the case of a correlated random coefficient model \cite{Heckman.2006d}.
@@ -205,11 +205,11 @@ $\Rightarrow$ If the schooling decision is determined by individual returns, the
 \begin{itemize}
 \item Log-earnings profiles are parallel across schooling levels.
 \begin{align*}
-\frac{\partial \ln Y(s, x)}{\partial s \partial x} = 0
+\frac{\partial \ln{Y(s, x)}}{\partial s \partial x} = 0
 \end{align*}
 \item Log-earnings age profiles diverge with age across schooling levels.
 \begin{align*}
-\frac{\partial \ln Y(s, x)}{\partial s \partial t} = \frac{\rho_0\kappa}{T} > 0
+\frac{\partial \ln{Y(s, x)}}{\partial s \partial t} = \frac{\rho_0\kappa}{T} > 0
 \end{align*}
 \item The variance of earnings over the life cycle has a U-shaped pattern.
 \end{itemize}
