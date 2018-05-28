@@ -54,15 +54,15 @@ We review examples of human capital policy and assess their effectiveness.
 
 * Becker, G. S. (1994). *Human capital: A theoretical and empirical analysis, with special reference to education* (3rd ed.). Chicago, IL: Chicago University Press.
 
-* Ben-Porath, Y. (1967). [The production of human capital and the life cycle of earnings.](http://www.uib.cat/depart/deaweb/personal/profesores/personalpages/hdeeasp9/workingpapers/bibliosecpub/benporath1967.pdf) *Journal of Political Economy, 75*(4, Part 1), 352–365.
+* Ben-Porath, Y. (1967). [The production of human capital and the life cycle of earnings.](https://www.journals.uchicago.edu/doi/pdfplus/10.1086/259291) *Journal of Political Economy, 75*(4, Part 1), 352–365.
 
-* Spence, M. (1973). [Job market signaling.](http://www.jstor.org/stable/pdf/1882010.pdf?refreqid=excelsior:53c3055c92edc9426d2082d61d39025e) *Quarterly Journal of Economics, 87*(3), 355–374.
+* Spence, M. (1973). [Job market signaling.](http://www.jstor.org/stable/1882010?seq=1#page_scan_tab_contents) *Quarterly Journal of Economics, 87*(3), 355–374.
 
 * Weiss, Y. (1986). [The determination of life cycle earnings: A survey.](https://www.sciencedirect.com/science/article/pii/S1573446386010143) In O. Ashenfelter & R. Layard (Eds.), *Handbook of labor economics* (Vol. 1, pp. 603–640). Amsterdam, Netherlands: North-Holland Publishing Company.
 
 #### Returns to schooling
 
-* Heckman, J. J., Lochner, L. J., & Todd, P. E. (2006). [Earnings functions, rates of return and treatment effects: The Mincer equation and beyond.](http://jenni.uchicago.edu/papers/pku_2007/Heckman_Lochner_etal_2006_HEE_v1_ch7.pdf) In E. A. Hanushek & F. Welch (Eds.), *Handbook of the economics of education* (Vol. 1, pp. 307–458). Amsterdam, Netherlands: North-Holland Publishing Company.
+* Heckman, J. J., Lochner, L. J., & Todd, P. E. (2006). [Earnings functions, rates of return and treatment effects: The Mincer equation and beyond.](https://www.sciencedirect.com/science/article/pii/S1574069206010075) In E. A. Hanushek & F. Welch (Eds.), *Handbook of the economics of education* (Vol. 1, pp. 307–458). Amsterdam, Netherlands: North-Holland Publishing Company.
 
 #### Multidimensionality of skills
 
@@ -71,18 +71,18 @@ We review examples of human capital policy and assess their effectiveness.
 #### Static model of educational choice
 
 *  Heckman, J. J., and Vytlacil, E. J. (2007a). [Econometric evaluation of social programs, part
-i: Causal effects, structural models and econometric policy evaluation.](http://ac.els-cdn.com/S1573441207060709/1-s2.0-S1573441207060709-main.pdf?_tid=b933f5c8-6bbe-11e7-8ae8-00000aacb35d&acdnat=1500385435_c69182d36b79b66bbce5f5a7c593617c) In J. J. Heckman and E. E. Leamer (Eds.), *Handbook of econometrics* (Vol. 6B, pp. 4779–4874). Amsterdam, Netherlands: Elsevier Science.
+I: Causal effects, structural models and econometric policy evaluation.](https://www.sciencedirect.com/science/article/pii/S1573441207060709) In J. J. Heckman and E. E. Leamer (Eds.), *Handbook of econometrics* (Vol. 6B, pp. 4779–4874). Amsterdam, Netherlands: Elsevier Science.
 
 * Heckman, J. J., and Vytlacil, E. J. (2007b). [Econometric evaluation of social programs, part
-ii: Using the marginal treatment effect to organize alternative economic estimators to evaluate social programs and to forecast their effects in new environments.](http://ac.els-cdn.com/S1573441207060710/1-s2.0-S1573441207060710-main.pdf?_tid=5ccb4ace-6bbf-11e7-807b-00000aab0f26&acdnat=1500385710_c3706f18138fabe356b0f3ebddd75670) In J. J. Heckman and E. E. Leamer (Eds.), *Handbook of econometrics* (Vol. 6B, pp. 4779–4874). Amsterdam, Netherlands: Elsevier Science.
+II: Using the marginal treatment effect to organize alternative economic estimators to evaluate social programs and to forecast their effects in new environments.](https://www.sciencedirect.com/science/article/pii/S1573441207060710) In J. J. Heckman and E. E. Leamer (Eds.), *Handbook of econometrics* (Vol. 6B, pp. 4779–4874). Amsterdam, Netherlands: Elsevier Science.
 
 * Carneiro, P., Heckman, J. J., & Vytlacil, E. J. (2011). [Estimating marginal returns to education.](https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2754) *American Economic Review, 101*(6), 2754–81.
 
 #### Dynamic model of human capital accumulation
 
-* Keane, M. P., & Wolpin, K. I. (1997). [The career decisions of young men.](http://www.jstor.org/stable/10.1086/262080?seq=1#page_scan_tab_contents) *Journal of Political Economy, 105*(3), 473–522.
+* Keane, M. P., & Wolpin, K. I. (1997). [The career decisions of young men.](https://www.journals.uchicago.edu/doi/abs/10.1086/262080) *Journal of Political Economy, 105*(3), 473–522.
 
-* Keane, M. P., Todd, P. E., & Wolpin, K. I. (2011). [The structural estimation of behavioral models: Discrete choice dynamic programming methods and applications.](https://www.ssc.wisc.edu/~walker/wp/wp-content/uploads/2013/09/KeaneEtalHBLE2011.pdf) In O. Ashenfelter & D. Card (Eds.), *Handbook of labor economics* (Vol. 4a, pp. 331–461). Amsterdam, Netherlands: Elsevier Science.
+* Keane, M. P., Todd, P. E., & Wolpin, K. I. (2011). [The structural estimation of behavioral models: Discrete choice dynamic programming methods and applications.](https://www.sciencedirect.com/science/article/pii/S0169721811004102) In O. Ashenfelter & D. Card (Eds.), *Handbook of labor economics* (Vol. 4a, pp. 331–461). Amsterdam, Netherlands: Elsevier Science.
 
 #### Intergenerational transmission of human capital
 
