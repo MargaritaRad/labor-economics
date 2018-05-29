@@ -54,7 +54,7 @@ We review examples of human capital policy and assess their effectiveness.
 
 * Becker, G. S. (1994). *Human capital: A theoretical and empirical analysis, with special reference to education* (3rd ed.). Chicago, IL: Chicago University Press.
 
-* Ben-Porath, Y. (1967). [The production of human capital and the life cycle of earnings.](https://www.journals.uchicago.edu/doi/pdfplus/10.1086/259291) *Journal of Political Economy, 75*(4, Part 1), 352–365.
+* Ben-Porath, Y. (1967). [The production of human capital and the life cycle of earnings.](http://www.jstor.org/stable/pdf/1828596.pdf) *Journal of Political Economy, 75*(4, Part 1), 352–365.
 
 * Spence, M. (1973). [Job market signaling.](http://www.jstor.org/stable/1882010?seq=1#page_scan_tab_contents) *Quarterly Journal of Economics, 87*(3), 355–374.
 
