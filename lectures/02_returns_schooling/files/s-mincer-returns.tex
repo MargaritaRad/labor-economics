@@ -3,7 +3,7 @@
 \end{center}\end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
-\begin{frame}\nocite{Mincer.1958,Mincer.1974}
+\begin{frame}
 \textbf{Mincer Equation}\\
 \begin{align*}
 \ln{Y(s, x)} = \alpha + \rho_s s + \beta_0 x + \beta_1 x^2 + \epsilon\\
@@ -14,8 +14,8 @@ $\Rightarrow$ How to interpret the \textit{Mincer Coefficient} $\rho_s$?
 %-------------------------------------------------------------------------------
 \begin{frame}\textbf{Conceptual Frameworks}\vspace{0.3cm}
 \begin{itemize}\setlength\itemsep{1em}
-\item compensating differences model
-\item accounting-identity model
+\item compensating differences model \cite{Mincer.1958}
+\item accounting-identity model \cite{{Mincer.1974}}
 \end{itemize}
 \end{frame}
 %-------------------------------------------------------------------------------
@@ -23,19 +23,23 @@ $\Rightarrow$ How to interpret the \textit{Mincer Coefficient} $\rho_s$?
 \begin{frame}\begin{center}
 \LARGE\textit{Compensating Differences Model}
 \end{center}\end{frame}
-
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \begin{frame}
+Let $Y(s)$ represent the annual earnings of an individual with $s$ years of education, assumed to be constant over his lifetime. Let $r$ be an externally determined interest rate and $T$ the length of working life, assumed not to depend on $s$. The present value of earnings associated with schooling level $s$ is
+
 \begin{align*}
-V(s) = Y(s)\int_s^T e^{-rt} dt = \frac{Y(s)}{r}(e^{-rs} - e^{-rT})
+V(s) = Y(s)\int_s^T e^{-rt} dt = \frac{Y(s)}{r}(e^{-rs} - e^{-rT}).
 \end{align*}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
 
-Equalizing present value of earnings across schooling levels:
+Equilibrium across heterogeneous schooling levels requires that individuals be indifferent between schooling choices, with allocations being driven by demand conditions.
+Equating earnings streams across schooling levels and taking logs yields
 \begin{align*}
-\ln{Y(s)} = \ln{Y(0)} + r s + \ln{\left(\frac{1 -e^{-rs}}{1 - e^{-r(T - s)}}\right)} \\
+\ln{Y(s)} = \ln{Y(0)} + r s + \ln{\left(\frac{1 -e^{-rs}}{1 - e^{-r(T - s)}}\right)}. \\
 \end{align*}
 
 $\Rightarrow$ $\rho_s$ equals the market interest rate and the internal rate of return to schooling by construction.
@@ -58,10 +62,26 @@ $\Rightarrow$ $\rho_s$ equals the market interest rate and the internal rate of 
 \end{center}\end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
+\begin{frame}\textbf{Model ingredients}
+\begin{align*}\begin{array}{ll}
+P_t & \text{potential earnings at $t$} \\
+C_t = k_t P_t & \text{investment cost of training at $t$} \\
+\rho_t & \text{average return to investment at $t$}
+\end{array}\end{align*}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \begin{frame}
 \begin{align*}
 P_t & \equiv P_{t - 1} (1 + k_{t - 1} \rho_{t - 1}) \equiv \prod^{t - 1}_{j= 0} (1 + \rho_jk_j)P_0 \\
-& \\
+\end{align*}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
+Formal schooling is defined as years spent in full-time investment $(k_t = 1)$, which is assumed to take place at the beginning of life and to yield a rate of return $\rho_s$ that is constant across all years of schooling.
+
+\begin{align*}
 \ln{P_t} & \equiv \ln{P_0}  + s \ln{(1 + \rho_s)} + \sum^{t-1}_{j=s} \ln{(1 + \rho_0 k_j)} \\
 & \approx  \ln{P_0} + s \rho_s + \rho_0 \sum^{t - 1}_{j=s} k_j
 \end{align*}
@@ -69,9 +89,9 @@ P_t & \equiv P_{t - 1} (1 + k_{t - 1} \rho_{t - 1}) \equiv \prod^{t - 1}_{j= 0} 
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-Assuming linearly declining rate of post-school investment:
+\citeA{Mincer.1974} assumes a linearly declining rate of post-school investment:
 \begin{align*}
-k_{s + x} = \kappa\left( 1 - x/T\right),\text{where} \quad x = t - s
+k_{s + x} = \kappa\left( 1 - x/T\right), \text{where}\; x = t - s
 \end{align*}
 \end{frame}
 %-------------------------------------------------------------------------------
@@ -85,12 +105,20 @@ k_{s + x} = \kappa\left( 1 - x/T\right),\text{where} \quad x = t - s
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
+
  \begin{align*}
- \ln{P_{x + s}}  \approx \ln{P_0} + s\rho_s + \left(\rho_0 \kappa + \frac{\rho_0\kappa}{2T}\right)x - \frac{\rho_0\kappa}{2T} x^2 \\
- \end{align*}
+ \ln{P_{x + s}}  \approx \ln{P_0} + s\rho_s + \underbrace{\left(\rho_0 \kappa + \frac{\rho_0\kappa}{2T}\right)x - \frac{\rho_0\kappa}{2T} x^2}_{(1)} \\
+\end{align*}
+
+We can derive $(1)$ using results for arithmetic series.
+
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
 Accounting for the difference in potential and observed earnings:
 \begin{align*}
-\ln{Y(s, x)} & = \ln{P_{x + s}} - \kappa\left(1 - x/T\right) \\
+\ln{Y(s, x)} & \approx \ln{P_{x + s}} - \kappa\left(1 - x/T\right) \\
             & = [\ln{P_0} - \kappa] + \rho_s s + \left(\rho_0\kappa + \frac{\rho_0\kappa}{2T} + \frac{\kappa}{T}\right) x - \frac{\rho_0\kappa}{2T}x^2
 \end{align*}
 $\Rightarrow$ $\rho_s$ is the average earnings increase with schooling
@@ -126,6 +154,7 @@ and let
 %-------------------------------------------------------------------------------
 \begin{frame}
 Dropping individual subscripts ...
+
 \begin{align*}
 \ln{Y(s, x)} & = \bar{\alpha} + \bar{\rho}_s s + \bar{\beta}_{0} x + \bar{\beta}_{1} x^2 \\
                 & + \underbrace{[(\alpha - \bar{\alpha}) + (\rho_s - \bar{\rho}_s) s + (\beta_0 - \bar{\beta}_0)x + (\beta_1 - \bar{\beta}_1)x^2 ]}_{\epsilon}\\
@@ -224,23 +253,13 @@ for the implementation.
 	\begin{align*}
 	\rho_0 \sum^{x - 1}_{j=0} (1 - j/T) = 1 - x/T, or \\
 	\\
-	\rho_0\left(x - \frac{x(x - 1)}{2T}\right) = \rho_0(1 - x/T).
+	\rho_0\left(x - \frac{x(x - 1)}{2T}\right) = (1 - x/T).
 	\end{align*}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	Clearly, $\lim_{T\to\infty} x^* = \frac{1}{\rho_0}$, so the variance minimizing age is $\frac{1}{\rho_0}$ when the work-life is long. More generally, re-arranging terms and solving for the root of this equation, yields the variance minimizing experience level of \\
-
-	\begin{align*}
-	x^* & = T + \frac{1}{2} + \frac{1}{\rho_0} - \sqrt{\left(T + \frac{1}{2} + \frac{1}{\rho_0}\right)^2 - \frac{2T}{\rho_0}} \\
-	& \approx \left(\rho_0 + \frac{\rho_0}{2T} + \frac{1}{T}\right)^{-1},
-	\end{align*}
-\end{frame}
-%-------------------------------------------------------------------------------
-%-------------------------------------------------------------------------------
-\begin{frame}
-	The final approximation comes from a first-order Taylor approximation of the square root term around the squared term inside. The approximation suggests that the variance minimizing age will generally be less than or equal to $\frac{1}{\rho_0}$, with the difference disappearing as $T$ grows large.
+	Clearly, $\lim_{T\to\infty} x^* = \frac{1}{\rho_0}$, so the variance minimizing age is $\frac{1}{\rho_0}$ when the work-life is long.
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
