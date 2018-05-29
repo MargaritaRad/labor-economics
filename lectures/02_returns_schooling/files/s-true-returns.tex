@@ -1,7 +1,7 @@
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}\begin{center}
-		\LARGE\textbf{True returns}
+	\LARGE\textbf{True rate of return}
 \end{center}\end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
@@ -15,11 +15,20 @@ Y_s = \left[\sum^T_{x = 0}(1 + r)^{-1} Y(s, x)\right]\epsilon_s
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-We assume that $\E_{s - 1}(\epsilon_s) = 1$ and define expected earnings associated with schooling $s$ conditional on current schooling $s - 1$,
+\begin{figure}[htp]\centering
+\caption{Model structure}
+\scalebox{0.35}{\includegraphics{fig-model-true-structure}}
+\end{figure}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
+We define expected earnings associated with schooling $s$ conditional on current schooling $s - 1$,
 
 \begin{align*}
 \bar{Y}_s = \E_{s - 1}(Y_s)
 \end{align*}
+
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
@@ -48,7 +57,7 @@ for $s \leq \bar{S}$. At the maximum schooling level, $\bar{S}$, after all infor
 The endogenously determined probability of going on from school level $s$ to $s + 1$ is
 
 \begin{align*}
-p_{s + 1, s} = \Pr\left(\epsilon_s \leq \frac{E_s(V_{s + 1})}{(1 + r) \bar{Y}_s}\right),
+p_{s + 1, s} = \Pr\left(\epsilon_s \leq \frac{E_s(V_{s + 1})}{(1 + r) Y_s}\right),
 \end{align*}
 where $E_s(V_{s + 1})$ may depend on $\epsilon_s$ because it enters the agent's information set.
 \end{frame}
@@ -58,16 +67,47 @@ where $E_s(V_{s + 1})$ may depend on $\epsilon_s$ because it enters the agent's 
 The average earnings of a person who stops at schooling level $s$ are
 
 \begin{align*}
-E_{s - 1}(V_s) & = \underbrace{(1 - p_{s + 1, s}) \bar{Y}_s E_{s - 1}\left(\epsilon\mid \epsilon \ge \frac{E_s(V_{s + 1})}{(1 + r)\bar{Y}_s)}\right)}_{\text{direct return}} \\
+E_{s - 1}(V_s) & = \underbrace{(1 - p_{s + 1, s}) Y_s E_{s - 1}\left(\epsilon\mid \epsilon \ge \frac{E_s(V_{s + 1})}{(1 + r)Y_s}\right)}_{\text{direct return}} \\
  & + \underbrace{p_{s + 1, s} \left(\frac{E_{s - 1}(V_{s + 1})}{1 + r}\right)}_{\text{option value}}.
 \end{align*}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}\textbf{Objects of interest}\vspace{0.3cm}
+
+\begin{itemize}
+\item Option value
+\begin{align*}
+O_{s, s - 1} = \E_{s - 1}\left[V_s - Y_s\right]\\
+\end{align*}
+\item True rate of return
+\begin{align*}
+R_{s, s - 1} = \frac{\E_{s - 1}\left[V_s\right] - Y_{s - 1}}{Y_{s -1}}
+\end{align*}
+\end{itemize}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}\textbf{Model specification}
+\begin{align*}\begin{array}{l@{\qquad}l}
+\log(\epsilon_s) \sim \N(0, \sigma) & r = 0.1   \\
+Y_{s + 1} = (1 + \rho_{s + 1}) Y_s & \sigma = 0.1 \\
+\end{array}\end{align*}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
+\begin{figure}[htp]\centering
+\caption{Scenarios}
+\scalebox{0.35}{\includegraphics{fig-model-true-scenarios}}
+\end{figure}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
 We can analyze this model in a Jupyter Noteboook. Visit
 \begin{center}
-\url{http://bit.ly/2IVfMHA}
+\url{http://bit.ly/2smCj9p}
 \end{center}
 for the implementation.
 \end{frame}
@@ -83,7 +123,7 @@ for the implementation.
 %-------------------------------------------------------------------------------
 \begin{frame}
 \begin{figure}[htp]\centering
-\caption{Option values and nonlinearities}
+\caption{Option values and sheepskin effects}
 \scalebox{0.35}{\includegraphics{fig-model-true-nonlinearities}}
 \end{figure}
 \end{frame}
@@ -97,9 +137,3 @@ for the implementation.
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
-\begin{frame}
-\begin{figure}[htp]\centering
-\caption{Model structure}
-\scalebox{0.35}{\includegraphics{fig-model-true-structure}}
-\end{figure}
-\end{frame}
