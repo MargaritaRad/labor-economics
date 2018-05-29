@@ -66,6 +66,8 @@ We review examples of human capital policy and assess their effectiveness.
 
 #### Multidimensionality of skills
 
+* Eisenhauer, P., Heckman, J. J., & Mosso, S. (2015). [Estimation of dynamic discrete choice models by maximum likelihood and the simulated method of moments.](https://onlinelibrary.wiley.com/doi/full/10.1111/iere.12107) *International Economic Review, 56*(2), 331–357.
+
 * Heckman, J. J., Stixrud, J., & Urzua, S. (2006). [The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior.](https://www.journals.uchicago.edu/doi/abs/10.1086/504455) *Journal of Labor Economics, 24*(3), 411–482.
 
 #### Static model of educational choice
