@@ -9,7 +9,7 @@
 Suppose their is uncertainty about net earnings conditional on $s$ and actual lifetime earnings for someone with $s$ years of schooling are:
 
 \begin{align*}
-Y_s = \left[\sum^T_{x = 0}(1 + r)^{-1} Y(s, x)\right]\epsilon_s
+Y_s = \underbrace{\left[\sum^T_{x = 0}(1 + r)^{-1} Y(s, x)\right]}_{\bar{Y}_s}\epsilon_s
 \end{align*}
 \end{frame}
 %-------------------------------------------------------------------------------
@@ -19,16 +19,6 @@ Y_s = \left[\sum^T_{x = 0}(1 + r)^{-1} Y(s, x)\right]\epsilon_s
 \caption{Model structure}
 \scalebox{0.35}{\includegraphics{fig-model-true-structure}}
 \end{figure}
-\end{frame}
-%-------------------------------------------------------------------------------
-%-------------------------------------------------------------------------------
-\begin{frame}
-We define expected earnings associated with schooling $s$ conditional on current schooling $s - 1$,
-
-\begin{align*}
-\bar{Y}_s = \E_{s - 1}(Y_s)
-\end{align*}
-
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
@@ -57,17 +47,17 @@ for $s \leq \bar{S}$. At the maximum schooling level, $\bar{S}$, after all infor
 The endogenously determined probability of going on from school level $s$ to $s + 1$ is
 
 \begin{align*}
-p_{s + 1, s} = \Pr\left(\epsilon_s \leq \frac{E_s(V_{s + 1})}{(1 + r) Y_s}\right),
+p_{s + 1, s} = \Pr\left(\epsilon_s \leq \frac{E_s(V_{s + 1})}{(1 + r) \bar{Y}_s}\right),
 \end{align*}
 where $E_s(V_{s + 1})$ may depend on $\epsilon_s$ because it enters the agent's information set.
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-The average earnings of a person who stops at schooling level $s$ are
+Thus, the expected value of schooling level $s$ as perceived at current schooling $s-1$ is:
 
 \begin{align*}
-E_{s - 1}(V_s) & = \underbrace{(1 - p_{s + 1, s}) Y_s E_{s - 1}\left(\epsilon\mid \epsilon \ge \frac{E_s(V_{s + 1})}{(1 + r)Y_s}\right)}_{\text{direct return}} \\
+E_{s - 1}(V_s) & = \underbrace{(1 - p_{s + 1, s}) \bar{Y}_s E_{s - 1}\left(\epsilon\mid \epsilon \ge \frac{E_s(V_{s + 1})}{(1 + r)\bar{Y}_s}\right)}_{\text{direct return}} \\
  & + \underbrace{p_{s + 1, s} \left(\frac{E_{s - 1}(V_{s + 1})}{1 + r}\right)}_{\text{option value}}.
 \end{align*}
 \end{frame}
@@ -107,7 +97,7 @@ Y_{s + 1} = (1 + \rho_{s + 1}) Y_s & \sigma = 0.1 \\
 \begin{frame}
 We can analyze this model in a Jupyter Noteboook. Visit
 \begin{center}
-\url{http://bit.ly/2smCj9p}
+\url{http://bit.ly/2skwwli}
 \end{center}
 for the implementation.
 \end{frame}
