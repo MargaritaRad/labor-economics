@@ -26,7 +26,7 @@ We outline the research program in the economics of human capital. We start by r
 
 #### [Returns to schooling](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/02_returns_schooling.pdf)
 
-We review the literature on the returns to schooling.
+We study several models of schooling decisions. We contrast their economic assumptions with a focus on the role of uncertainty and nonlinearities in the return to increasing schooling. In the process, we contrast alternative return concepts and investigate their empirical validity.
 
 #### [Multidimensionality of skills](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/03_multidimensionality_skills.pdf)
 

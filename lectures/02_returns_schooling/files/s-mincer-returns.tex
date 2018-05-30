@@ -14,8 +14,8 @@ $\Rightarrow$ How to interpret the \textit{Mincer Coefficient} $\rho_s$?
 %-------------------------------------------------------------------------------
 \begin{frame}\textbf{Conceptual Frameworks}\vspace{0.3cm}
 \begin{itemize}\setlength\itemsep{1em}
-\item compensating differences model \cite{Mincer.1958}
-\item accounting-identity model \cite{{Mincer.1974}}
+\item compensating differences \cite{Mincer.1958}
+\item accounting-identity \cite{{Mincer.1974}}
 \end{itemize}
 \end{frame}
 %-------------------------------------------------------------------------------
@@ -31,6 +31,22 @@ Let $Y(s)$ represent the annual earnings of an individual with $s$ years of educ
 \begin{align*}
 V(s) = Y(s)\int_s^T e^{-rt} dt = \frac{Y(s)}{r}(e^{-rs} - e^{-rT}).
 \end{align*}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
+\begin{figure}[htp]\centering
+\caption{Earnings}\scalebox{0.35}
+{\includegraphics{fig-model-mincer-return-earnings}}
+\end{figure}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
+\begin{figure}[htp]\centering
+\caption{Value}\scalebox{0.35}
+{\includegraphics{fig-model-mincer-return-value}}
+\end{figure}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
@@ -105,12 +121,20 @@ k_{s + x} = \kappa\left( 1 - x/T\right), \text{where}\; x = t - s
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
+The derivations draws on the following results for arithmetic series.
+\begin{align*}
+\sum^n_{i = 0} i = \sum^n_{i = 1} i = \frac{n(n + 1)}{2}
+\end{align*}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
 
  \begin{align*}
  \ln{P_{x + s}}  \approx \ln{P_0} + s\rho_s + \underbrace{\left(\rho_0 \kappa + \frac{\rho_0\kappa}{2T}\right)x - \frac{\rho_0\kappa}{2T} x^2}_{(1)} \\
 \end{align*}
 
-We can derive $(1)$ using results for arithmetic series.
+You can derive $(1)$ using the previous results.
 
 \end{frame}
 %-------------------------------------------------------------------------------
@@ -134,8 +158,11 @@ where
 \begin{align*}
 \alpha & =\ln{P_0} - \kappa \\
 \beta_0 & = \left(\rho_0\kappa + \frac{\rho_0\kappa}{2T} + \frac{\kappa}{T}\right) \\
-\beta_1 & = -\frac{\rho_0\kappa}{2T}
+\beta_1 & = -\frac{\rho_0\kappa}{2T}\\
 \end{align*}
+
+What about heterogeneous returns?
+
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
@@ -330,6 +357,13 @@ In the end, \cite{Heckman.2006a} conclude:\vspace{0.5cm}
 \begin{quote}
 In common usage, the coefficient on schooling in a regression of log earnings on years of schooling is often called a rate of return. In fact, it is a price of schooling from a hedonic market wage equation. It is a growth rate of market earnings with years of schooling and not an internal rate of return measure, except under stringent conditions which we specify, test and reject in this chapter.
 \end{quote}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}[plain]
+\begin{center}
+\includegraphics[width=.90\columnwidth]{tab-mincer-returns}
+\end{center}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
