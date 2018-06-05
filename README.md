@@ -30,7 +30,7 @@ We study several models of schooling decisions. We contrast their economic assum
 
 #### [Multidimensionality of skills](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/03_multidimensionality_skills.pdf)
 
-We sharpen our understanding of the multidimensionality of human capital.
+We sharpen our understanding of the multidimensionality of human capital. We review two papers that showcase the importance of cognitive as well as noncogitive skills for a variety of economic outcomes and objects of interest. But first of all, we start the lecture by briefly reviewing some best practices on how to read a research paper. The slides are available [here](https://github.com/eisenhauerIO/talks/blob/master/distribution/reading_scientific_papers.pdf).
 
 #### [Static model of educational choice](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/04_static_model.pdf)
 
