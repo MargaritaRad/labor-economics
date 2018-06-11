@@ -6,7 +6,7 @@
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\textbf{Generalized Roy Model as Unifying Framework}
+	\textbf{Generalized Roy model}
 	\begin{align*}
 	\textbf{Potential Outcomes} &\qquad \textbf{Cost} \\
 	Y_1 = \mu_1(X) + U_1      &\qquad C = \mu_D(Z) + U_C \\
@@ -39,13 +39,10 @@
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
-\begin{frame}\textbf{Econometric problems}
-
-\begin{itemize}\setlength\itemsep{1em}
-\item \textbf{Evaluation problem}, we only observe an individual in either the treated or untreated state.
-\item \textbf{Selection problem}, individuals that select into treatment differ from those that do not.
-\end{itemize}
-
+\begin{frame}
+\begin{figure}[htp]\centering\caption{Distribution of benefits}
+\scalebox{0.35}{\includegraphics{fig-treatment-effects-benefits}}
+\end{figure}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
@@ -62,15 +59,23 @@ Y_{0i}\quad\text{if}\quad D_{i} = 0 \\
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
-\begin{frame}
-	\begin{figure}\caption{Distribution of Benefits}
-		\scalebox{0.35}{\includegraphics{fig-treatment-effects-benefits.png}}
-	\end{figure}
+\begin{frame}\textbf{Econometric problems}
+
+\begin{itemize}\setlength\itemsep{1em}
+\item \textbf{Evaluation problem}, we only observe an individual in either the treated or untreated state.
+\item \textbf{Selection problem}, individuals that select into treatment differ from those that do not.
+\end{itemize}
+
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
+\begin{frame}\begin{center}
+	\LARGE\textit{Concepts}
+\end{center}\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \begin{frame}
-	\textbf{Essential Heterogeneity}\vspace{0.5cm}
+	\textbf{Essential Heterogeneity}\\\vspace{0.5cm}
 	\textbf{Definition:} Individuals select their treatment status based on
 	gains unobservable by the econometrician. More formally,
 	\begin{align*}
@@ -80,15 +85,3 @@ Y_{0i}\quad\text{if}\quad D_{i} = 0 \\
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
-\begin{frame}
-	\begin{figure}\caption{Conditional Expectation and Essential Heterogeneity}
-		\scalebox{0.35}{\includegraphics{fig-eh-conditional-expectation}}
-	\end{figure}
-\end{frame}
-%-------------------------------------------------------------------------------
-%-------------------------------------------------------------------------------
-\begin{frame}
-	\begin{figure}[htp]\centering
-		\caption{Treatment Effects}\scalebox{0.35}{\includegraphics{fig-treatment-effects-conventional}}
-	\end{figure}
-\end{frame}
