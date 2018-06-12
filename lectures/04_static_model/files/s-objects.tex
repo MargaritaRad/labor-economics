@@ -6,24 +6,19 @@
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\citeA{Heckman.2008a} sets out three tasks for us:
-	\begin{itemize}\setlength\itemsep{1em}
-		\item Defining the Set of Hypotheticals or Counterfactuals \\\hspace{0.3cm}
-		$\Rightarrow$ A Scientific Theory
-		\item Identifying Causal Parameters from Real Data \\\hspace{0.3cm}
-		$\Rightarrow$ Mathematical Analysis of  Data Point or Set Identification
-		\item Identifying Parameters from Real Data\\\hspace{0.3cm}
-		$\Rightarrow$ Estimation and Testing Theory
-	\end{itemize}
-\end{frame}
-%-------------------------------------------------------------------------------
-%-------------------------------------------------------------------------------
-\begin{frame}
 	\textbf{Useful Notation}
 	\begin{align*}
 		P(X, Z) & = \Pr(D = 1\mid X, Z) = F_V(\mu_D(X, Z)) \\
 		U_D     & = F_V(V)
 	\end{align*}
+\end{frame}
+
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
+\begin{figure}[htp]\centering\caption{First-stage unobservable}
+\scalebox{0.35}{\includegraphics{fig-quantile-function.png}}
+\end{figure}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
@@ -77,14 +72,14 @@
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\begin{figure}\caption{Distribution of Effects with Essential Heterogeneity}
+	\begin{figure}\caption{Distribution of effects with essential heterogeneity}
 		\scalebox{0.35}{\includegraphics{fig-treatment-effects-with-eh}}
 	\end{figure}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\begin{figure}\caption{Distribution of Effects without Essential Heterogeneity}
+	\begin{figure}\caption{Distribution of effects without essential heterogeneity}
 		\scalebox{0.35}{\includegraphics{fig-treatment-effects-without-eh}}
 	\end{figure}
 \end{frame}
@@ -123,21 +118,21 @@
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\begin{figure}\caption{Margin of Indifference}
+	\begin{figure}\caption{Margin of indifference}
 		\scalebox{0.35}{\includegraphics{fig-margin-indifference}}
 	\end{figure}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\begin{figure}\caption{Marginal Benefit of Treatment}
+	\begin{figure}\caption{Marginal benefit of treatment}
 		\scalebox{0.35}{\includegraphics{fig-eh-marginal-effect}}
 	\end{figure}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\textbf{Effects of Treatment as Weighted Averages}
+	\textbf{Effects of treatment as weighted averages}
 	Parameter \(\Delta_j\), can be written as a weighted average of the
 	\(B^{MTE}(x, u_D)\).
 	\begin{align*}
@@ -159,7 +154,7 @@
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\begin{figure}\caption{Effects of Treatment as Weighted Averages}
+	\begin{figure}\caption{Effects of treatment as weighted averages}
 		\scalebox{0.35}{\includegraphics{fig-weights-marginal-effect}}
 	\end{figure}
 \end{frame}
@@ -170,8 +165,7 @@
 \end{center}\end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
-\begin{frame}
-	\textbf{Local Average Treatment Effect}
+\begin{frame}\textbf{Local Average Treatment Effect}\vspace{0.3cm}
 	\begin{itemize}\setlength\itemsep{1em}
 		\item \textbf{Local Average Treatment Effect:} Average effect for those induced
 		to change treatment because of a change in the instrument.\\\vspace{0.2cm}
@@ -186,38 +180,39 @@
 %-------------------------------------------------------------------------------
 \begin{frame}
 	\begin{align*}
-		B^{LATE} = \frac{E(Y\mid Z = z) - E[Y \mid Z = z^\prime]}{P(z) - P(z^\prime)}
+		B^{LATE} = \frac{E[Y\mid Z = z] - E[Y \mid Z = z^\prime]}{P(z) - P(z^\prime)}
 	\end{align*}
 	\begin{align*}
-		B^{LATE}(x, u_D, u_{S^\prime}) = \frac{1}{u_D - u_{D^\prime}} \int_{u_D}^{u_{S^\prime}} B^{MTE}(x, u) du,
+		B^{LATE}(x, u_D, u_{D^\prime}) = \frac{1}{u_D - u_{D^\prime}} \int_{u_D}^{u_{D^\prime}} B^{MTE}(x, u) du,
 	\end{align*}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
 	\begin{figure}[htp]\centering
-		\caption{Local Average Treatment Effect}\label{Local Average Treatment}\scalebox{0.35}
+		\caption{Local average treatment effect}\scalebox{0.35}
 		{\includegraphics{fig-local-average-treatment}}
 	\end{figure}
 \end{frame}
 
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
-
 \begin{frame}\begin{center}
 		\LARGE\textit{Distributions of Effects}
 \end{center}\end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\begin{figure}\caption{Distribution of Potential Outcomes}
+	\begin{figure}\caption{Distribution of potential outcomes}
 		\scalebox{0.35}{\includegraphics{fig-distribution-joint-potential}}
 	\end{figure}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\begin{figure}\caption{Distribution of Benefits and Surplus}
+	\begin{figure}\caption{Distribution of benefits and surplus}
 		\scalebox{0.35}{\includegraphics{fig-distribution-joint-surplus}}
 	\end{figure}
 \end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------

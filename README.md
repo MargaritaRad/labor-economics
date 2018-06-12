@@ -34,7 +34,7 @@ We sharpen our understanding of the multidimensionality of human capital. We rev
 
 #### [Static model of educational choice](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/04_static_model.pdf)
 
-We study the economics and econometrics of the generalized Roy model. We explore the capabilities of the ``grmpy`` package.
+We study the economics and econometrics of the generalized Roy model. We discuss alternative parameters of interest and clarify the policy questions they address. We also explore the capabilities of the ``grmpy`` package.
 
 #### [Dynamic model of human capital accumulation](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/05_dynamic_model.pdf)
 
