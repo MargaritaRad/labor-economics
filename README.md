@@ -78,6 +78,8 @@ I: Causal effects, structural models and econometric policy evaluation.](https:/
 * Heckman, J. J., and Vytlacil, E. J. (2007b). [Econometric evaluation of social programs, part
 II: Using the marginal treatment effect to organize alternative economic estimators to evaluate social programs and to forecast their effects in new environments.](https://www.sciencedirect.com/science/article/pii/S1573441207060710) In J. J. Heckman and E. E. Leamer (Eds.), *Handbook of econometrics* (Vol. 6B, pp. 4779–4874). Amsterdam, Netherlands: Elsevier Science.
 
+Carneiro, P., Hansen K. T., and Heckman J. J. (2003). [Estimating distributions of treatment effects with an application to the returns to schooling and measurement of the effects of uncertainty on college choice.](https://onlinelibrary.wiley.com/doi/10.1111/1468-2354.t01-1-00074) *International Economic Review, 44*(2), 361–422.
+
 * Carneiro, P., Heckman, J. J., & Vytlacil, E. J. (2011). [Estimating marginal returns to education.](https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2754) *American Economic Review, 101*(6), 2754–81.
 
 #### Dynamic model of human capital accumulation
