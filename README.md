@@ -38,7 +38,7 @@ We study the economics and econometrics of the generalized Roy model. We discuss
 
 #### [Dynamic model of human capital accumulation](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/05_dynamic_model.pdf)
 
-We also study the seminal paper on the career decision of young men in [Keane & Wolpin (1997)](https://github.com/HumanCapitalEconomics/talks/blob/master/distribution/seminal_papers/04_Keane_al_1997.pdf). We explore the capabilities of the ``respy`` package to estimate the model presented there.
+We also study the seminal paper on the career decision of young men in [Keane & Wolpin (1997)](https://github.com/HumanCapitalEconomics/talks/blob/master/distribution/seminal_papers/04_Keane_al_1997.pdf). We explore the capabilities of the [``respy`` package](https://github.com/OpenSourceEconomics/respy/tree/janosg/doc/presentation) to estimate the model presented there.
 
 #### [Intergenerational transmission of human capital](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/06_intergenerational_transmission.pdf)
 
