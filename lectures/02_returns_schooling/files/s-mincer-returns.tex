@@ -52,13 +52,23 @@ V(s) = Y(s)\int_s^T e^{-rt} dt = \frac{Y(s)}{r}(e^{-rs} - e^{-rT}).
 %-------------------------------------------------------------------------------
 \begin{frame}
 
-Equilibrium across heterogeneous schooling levels requires that individuals be indifferent between schooling choices, with allocations being driven by demand conditions.
-Equating earnings streams across schooling levels and taking logs yields
+Equilibrium across heterogeneous schooling levels requires that individuals be indifferent between schooling choices with $V(s) - V(0) = 0$. Equating earnings streams across schooling levels yields:
+
 \begin{align*}
-\ln{Y(s)} = \ln{Y(0)} + r s + \ln{\left(\frac{1 -e^{-rT}}{1 - e^{-r(T - s)}}\right)}. \\
+& \frac{Y(s)}{r} \left(e^{-rs}  - e^{-rT} \right) - \frac{Y(0)}{r} \left(1  - e^{-rT} \right)  = 0\\
+& Y(s)  = Y(0) \left(\frac{1  - e^{-rT} }{e^{-rs} - e^{-rT}}\right) \\
+& Y(s)  = Y(0) \left(\frac{1}{e^{-rs}}\right)\left(\frac{1  - e^{-rT} }{1 - e^{-r(T - s)}}\right) \\
+\end{align*}
+\end{frame}
+
+\begin{frame}
+Taking the natural logarithm:
+\begin{align*}
+\ln{Y(s)} = \ln{Y(0)} + r s + \ln{\left(\frac{1 - e^{-rT}}{1 - e^{-r(T - s)}}\right)}
 \end{align*}
 
 $\Rightarrow$ $\rho_s$ equals the market interest rate and the internal rate of return to schooling by construction.
+
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
@@ -109,6 +119,10 @@ Formal schooling is defined as years spent in full-time investment $(k_t = 1)$, 
 \begin{align*}
 k_{s + x} = \kappa\left( 1 - x/T\right), \text{where}\; x = t - s
 \end{align*}
+Thus,
+\begin{align*}
+\ln{P_{x+s}} = \ln{P_0} + s \rho_s + \rho_0 \sum_{j=1}^{x} \kappa \left(1 - j/T\right).
+\end{align*}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
@@ -126,16 +140,27 @@ The derivations draws on the following results for arithmetic series \cite{Chapm
 \sum^n_{i = 0} i = \sum^n_{i = 1} i = \frac{n(n + 1)}{2}
 \end{align*}
 \end{frame}
+
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-
- \begin{align*}
- \ln{P_{x + s}}  \approx \ln{P_0} + s\rho_s + \underbrace{\left(\rho_0 \kappa + \frac{\rho_0\kappa}{2T}\right)x - \frac{\rho_0\kappa}{2T} x^2}_{(1)} \\
+We need to further decompose the experience addition and use results on arithmetic series.
+\begin{align*}
+\rho_0\sum_{j=1}^{x} \kappa \left(1 - j/T\right) & = \rho_0 \sum_{j=1}^{x} \kappa - \rho_0 \sum_{j=1}^{x} \left(j/T\right)\\
+    & = \rho_0 \kappa x - \frac{\rho_0}{T} \sum_{j=1}^{x} j\\
+    & = \rho_0 \kappa x - \frac{\rho_0}{T} x\left(\frac{1+x}{2}\right) \\
+    & = \rho_0 \kappa x - \frac{\rho_0}{2T} x - \frac{\rho_0}{2T} x^2  \\
+    & = \left(\rho_0 \kappa - \frac{\rho_0}{2T}\right) x - \frac{\rho_0}{2T} x^2
 \end{align*}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
+Now we can substitute the experience effect back into the baseline equation of potential earnings.
 
-You can derive $(1)$ using the previous results.
-
+\begin{align*}
+\ln{P_{x+s}} = \ln{P_0} + s \rho_s  + \left(\rho_0 \kappa - \frac{\rho_0}{2T}\right) x - \frac{\rho_0}{2T} x^2
+\end{align*}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
