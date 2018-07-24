@@ -56,6 +56,8 @@ We review examples of human capital policy and assess their effectiveness.
 
 * Ben-Porath, Y. (1967). [The production of human capital and the life cycle of earnings.](http://www.jstor.org/stable/pdf/1828596.pdf) *Journal of Political Economy, 75*(4, Part 1), 352–365.
 
+* Lagakos, D., Moll, B., Porzio, T., Qian, N., & Schoellman, T. (2018). [Life cycle wage growth across countries.](https://www.journals.uchicago.edu/doi/abs/10.1086/696225?journalCode=jpe) *Journal of Political Economy, 126*(2), 797–849.
+
 * Spence, M. (1973). [Job market signaling.](http://www.jstor.org/stable/1882010?seq=1#page_scan_tab_contents) *Quarterly Journal of Economics, 87*(3), 355–374.
 
 * Weiss, Y. (1986). [The determination of life cycle earnings: A survey.](https://www.sciencedirect.com/science/article/pii/S1573446386010143) In O. Ashenfelter & R. Layard (Eds.), *Handbook of labor economics* (Vol. 1, pp. 603–640). Amsterdam, Netherlands: North-Holland Publishing Company.
