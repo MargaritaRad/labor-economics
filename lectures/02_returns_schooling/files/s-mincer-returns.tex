@@ -146,11 +146,11 @@ The derivations draws on the following results for arithmetic series \cite{Chapm
 \begin{frame}
 We need to further decompose the experience addition and use results on arithmetic series.
 \begin{align*}
-\rho_0\sum_{j=1}^{x} \kappa \left(1 - j/T\right) & = \rho_0 \sum_{j=1}^{x} \kappa - \rho_0\kappa \sum_{j=1}^{x} \left(j/T\right)\\
-    & = \rho_0 \kappa x - \frac{\rho_0\kappa}{T} \sum_{j=1}^{x} j\\
-    & = \rho_0 \kappa x - \frac{\rho_0\kappa}{T} x\left(\frac{1+x}{2}\right) \\
-    & = \rho_0 \kappa x - \frac{\rho_0\kappa}{2T} x - \frac{\rho_0\kappa}{2T} x^2  \\
-    & = \left(\rho_0 \kappa - \frac{\rho_0\kappa}{2T}\right) x - \frac{\rho_0\kappa}{2T} x^2
+\rho_0\sum_{j=0}^{x - 1} \kappa \left(1 - j/T\right) & = \rho_0 \sum_{j=0}^{x - 1} \kappa - \rho_0\kappa \sum_{j=0}^{x - 1} \left(j/T\right)\\
+    & = \rho_0 \kappa x - \frac{\rho_0\kappa}{T} \sum_{j=0}^{x - 1} j\\
+    & = \rho_0 \kappa x - \frac{\rho_0\kappa}{T} \left(\frac{(x - 1)((x - 1) + 1))}{2}\right) \\
+    & = \rho_0 \kappa x - \frac{\rho_0\kappa}{T} \left(\frac{x^2 - x}{2}\right) \\
+    & = \left(\rho_0 \kappa + \frac{\rho_0\kappa}{2T}\right) x - \frac{\rho_0\kappa}{2T} x^2
 \end{align*}
 \end{frame}
 %-------------------------------------------------------------------------------
@@ -159,7 +159,7 @@ We need to further decompose the experience addition and use results on arithmet
 Now we can substitute the experience effect back into the baseline equation of potential earnings.
 
 \begin{align*}
-\ln{P_{x+s}} = \ln{P_0} + s \rho_s  + \left(\rho_0 \kappa - \frac{\rho_0\kappa}{2T}\right) x - \frac{\rho_0\kappa}{2T} x^2
+\ln{P_{x+s}} = \ln{P_0} + s \rho_s  + \left(\rho_0 \kappa + \frac{\rho_0\kappa}{2T}\right) x - \frac{\rho_0\kappa}{2T} x^2
 \end{align*}
 \end{frame}
 %-------------------------------------------------------------------------------
@@ -168,7 +168,7 @@ Now we can substitute the experience effect back into the baseline equation of p
 Accounting for the difference in potential and observed earnings:
 \begin{align*}
 \ln{Y(s, x)} & \approx \ln{P_{x + s}} - \kappa\left(1 - x/T\right) \\
-            & = [\ln{P_0} - \kappa] + \rho_s s + \left(\rho_0\kappa - \frac{\rho_0\kappa}{2T} + \frac{\kappa}{T}\right) x - \frac{\rho_0\kappa}{2T}x^2
+            & = [\ln{P_0} - \kappa] + \rho_s s + \left(\rho_0\kappa + \frac{\rho_0\kappa}{2T} + \frac{\kappa}{T}\right) x - \frac{\rho_0\kappa}{2T}x^2
 \end{align*}
 $\Rightarrow$ $\rho_s$ is the average earnings increase with schooling
 \end{frame}
@@ -182,7 +182,7 @@ $\Rightarrow$ $\rho_s$ is the average earnings increase with schooling
 where
 \begin{align*}
 \alpha & =\ln{P_0} - \kappa \\
-\beta_0 & = \left(\rho_0\kappa - \frac{\rho_0\kappa}{2T} + \frac{\kappa}{T}\right) \\
+\beta_0 & = \left(\rho_0\kappa + \frac{\rho_0\kappa}{2T} + \frac{\kappa}{T}\right) \\
 \beta_1 & = -\frac{\rho_0\kappa}{2T}\\
 \end{align*}
 
