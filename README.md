@@ -18,7 +18,7 @@ Please use the table of content to navigate the rest of the material.
 
 ## Lectures <a name="lectures"></a>
 
-We provide a brief description of the individual lectures and link the their slides.
+We provide a brief description of the individual lectures and link the their slides. All lectures are also available for download as a single file [here](https://github.com/HumanCapitalEconomics/economics/blob/master/distribution/course_deck.pdf).
 
 #### [Introduction](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/01_introduction.pdf)
 
