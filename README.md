@@ -4,10 +4,7 @@
 knowledge are a form of capital, that this capital is in substantial part a product of deliberate investment, that it has grown in Western societies at a much faster rate than conventional (nonhuman) capital, and that its growth may well be the most distinctive feature of the
 economic system. It has been widely observed that increases in national output have been large compared with the increases of land, man-hours and physical reproducible capital. Investment in human capital is probably the major explanation for this difference. (Schultz, 1961)
 
-We study the economics of human capital. For further questions, please do not hesitate to contact us.
-
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/HumanCapitalEconomics/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-<br>
+We study the economics of human capital. For further questions, please do not hesitate to [contact us](https://join.slack.com/t/humancapitalanalysis/shared_invite/enQtNDQ0ODkyODYyODA2LWEyZjdlNWYwYmUyNzlkOWFkNWJkMGI5M2M4ZWUyMThhNWNiMmJhY2ZjY2E4YzE3NGQ5MzcxZTRhN2QxYjgxYWY).
 
 Please use the table of content to navigate the rest of the material.
 
