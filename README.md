@@ -1,4 +1,4 @@
-# Course on the Economics of Human Capital
+﻿# Course on the Economics of Human Capital
 
 > Although it is obvious that people acquire useful skills and knowledge, it is not obvious that these skills and
 knowledge are a form of capital, that this capital is in substantial part a product of deliberate investment, that it has grown in Western societies at a much faster rate than conventional (nonhuman) capital, and that its growth may well be the most distinctive feature of the
@@ -15,33 +15,33 @@ Please use the table of content to navigate the rest of the material.
 
 ## Lectures <a name="lectures"></a>
 
-We provide a brief description of the individual lectures and link the their slides. All lectures are also available for download as a single file [here](https://github.com/HumanCapitalEconomics/economics/blob/master/distribution/course_deck.pdf).
+We provide a brief description of the individual lectures and link the their slides. All lectures are also available for download as a single file [here](https://github.com/HumanCapitalAnalysis/economics/blob/master/distribution/course_deck.pdf).
 
-#### [Introduction](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/01_introduction.pdf)
+#### [Introduction](https://github.com/HumanCapitalAnalysis/course/blob/master/distribution/01_introduction.pdf)
 
 We outline the research program in the economics of human capital. We start by reviewing some facts about the distribution of human capital across and within countries and then study two seminal models emphasizing different mechanisms how education affects labor market outcomes. We present an overview on the National Longitudinal Survey of Youth 1979 with a focus on human capital information, the slides are available [here](https://github.com/OpenSourceEconomics/nlsy_dataset/blob/master/distribution/presentation.pdf).
 
-#### [Returns to schooling](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/02_returns_schooling.pdf)
+#### [Returns to schooling](https://github.com/HumanCapitalAnalysis/course/blob/master/distribution/02_returns_schooling.pdf)
 
 We study several models of schooling decisions. We contrast their economic assumptions with a focus on the role of uncertainty and nonlinearities in the return to increasing schooling. In the process, we contrast alternative return concepts and investigate their empirical validity.
 
-#### [Multidimensionality of skills](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/03_multidimensionality_skills.pdf)
+#### [Multidimensionality of skills](https://github.com/HumanCapitalAnalysis/course/blob/master/distribution/03_multidimensionality_skills.pdf)
 
-We sharpen our understanding of the multidimensionality of human capital. We review two papers that showcase the importance of cognitive as well as noncognitive skills for a variety of economic outcomes and objects of interest. But first of all, we start the lecture by briefly reviewing some best practices on how to read a research paper. The slides are available [here](https://github.com/HumanCapitalEconomics/talks/blob/master/distribution/research_skills/01_reading_scientific_papers.pdf).
+We sharpen our understanding of the multidimensionality of human capital. We review two papers that showcase the importance of cognitive as well as noncognitive skills for a variety of economic outcomes and objects of interest. But first of all, we start the lecture by briefly reviewing some best practices on how to read a research paper. The slides are available [here](https://github.com/HumanCapitalAnalysis/talks/blob/master/distribution/research_skills/01_reading_scientific_papers.pdf).
 
-#### [Static model of educational choice](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/04_static_model.pdf)
+#### [Static model of educational choice](https://github.com/HumanCapitalAnalysis/course/blob/master/distribution/04_static_model.pdf)
 
-We study the economics and econometrics of the generalized Roy model. We discuss alternative parameters of interest and clarify the policy questions they address. We also explore the capabilities of the ``grmpy`` package. The manuscript [Issues in the Econometrics of Policy Evaluation](https://github.com/HumanCapitalEconomics/econometrics/blob/master/distribution/Eisenhauer_2012.pdf) provides an additional introduction to the material discussed in the lecture. We discuss an application of the framework in [Estimating Marginal Returns to Education](https://github.com/HumanCapitalEconomics/talks/blob/master/distribution/seminal_papers/01_Carneiro_al_2011.pdf).
+We study the economics and econometrics of the generalized Roy model. We discuss alternative parameters of interest and clarify the policy questions they address. We also explore the capabilities of the ``grmpy`` package. The manuscript [Issues in the Econometrics of Policy Evaluation](https://github.com/HumanCapitalAnalysis/econometrics/blob/master/distribution/Eisenhauer_2012.pdf) provides an additional introduction to the material discussed in the lecture. We discuss an application of the framework in [Estimating Marginal Returns to Education](https://github.com/HumanCapitalAnalysis/talks/blob/master/distribution/seminal_papers/01_Carneiro_al_2011.pdf).
 
-#### [Dynamic model of human capital accumulation](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/05_dynamic_model.pdf)
+#### [Dynamic model of human capital accumulation](https://github.com/HumanCapitalAnalysis/course/blob/master/distribution/05_dynamic_model.pdf)
 
-We also study the seminal paper on the career decision of young men in [Keane & Wolpin (1997)](https://github.com/HumanCapitalEconomics/talks/blob/master/distribution/seminal_papers/04_Keane_al_1997.pdf). We explore the capabilities of the [``respy`` package](https://github.com/OpenSourceEconomics/respy/tree/janosg/doc/presentation) to estimate the model presented there.
+We also study the seminal paper on the career decision of young men in [Keane & Wolpin (1997)](https://github.com/HumanCapitalAnalysis/talks/blob/master/distribution/seminal_papers/04_Keane_al_1997.pdf). We explore the capabilities of the [``respy`` package](https://github.com/OpenSourceEconomics/respy/tree/janosg/doc/presentation) to estimate the model presented there.
 
-#### [Intergenerational transmission of human capital](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/06_intergenerational_transmission.pdf)
+#### [Intergenerational transmission of human capital](https://github.com/HumanCapitalAnalysis/course/blob/master/distribution/06_intergenerational_transmission.pdf)
 
 We study the mechanisms driving the intergenerational transmission of human capital.
 
-#### [Human capital policy](https://github.com/HumanCapitalEconomics/course/blob/master/distribution/07_human_capital_policy.pdf)
+#### [Human capital policy](https://github.com/HumanCapitalAnalysis/course/blob/master/distribution/07_human_capital_policy.pdf)
 
 We review examples of human capital policy and assess their effectiveness.
 
@@ -109,6 +109,6 @@ II: Using the marginal treatment effect to organize alternative economic estimat
 
 ## Iterations <a name="iterations"></a>
 
-* **Summer Quarter 2018**, Graduate Program at the University of Bonn, please see [here](https://github.com/HumanCapitalEconomics/course/blob/master/iterations/bonn_ss_2018/README.md) for details.
+* **Summer Quarter 2018**, Graduate Program at the University of Bonn, please see [here](https://github.com/HumanCapitalAnalysis/course/blob/master/iterations/bonn_ss_2018/README.md) for details.
 
-[![Build Status](https://travis-ci.org/HumanCapitalEconomics/economics.svg?branch=master)](https://travis-ci.org/HumanCapitalEconomics/economics)
+[![Build Status](https://travis-ci.org/HumanCapitalAnalysis/economics.svg?branch=master)](https://travis-ci.org/HumanCapitalAnalysis/economics)
