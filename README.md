@@ -19,7 +19,7 @@ We provide a brief description of the individual lectures and link the their sli
 
 #### [Introduction](https://github.com/HumanCapitalAnalysis/course/blob/master/distribution/01_introduction.pdf)
 
-We outline the research program in the economics of human capital. We start by reviewing some facts about the distribution of human capital across and within countries and then study two seminal models emphasizing different mechanisms how education affects labor market outcomes. We present an overview on the National Longitudinal Survey of Youth 1979 with a focus on human capital information, the slides are available [here](https://github.com/OpenSourceEconomics/nlsy_dataset/blob/master/distribution/presentation.pdf).
+We outline the research program in the economics of human capital. We start by reviewing some facts about the distribution of human capital across and within countries and then study two seminal models emphasizing different mechanisms how education affects labor market outcomes. We present an overview on the National Longitudinal Survey of Youth 1979 with a focus on human capital information, the slides are available [here](https://github.com/OpenSourceEconomics/nlsy_dataset/blob/master/distribution/presentation.pdf). We also discuss the usefulness of mathematical modeling in economics, the slides are available [here](https://github.com/HumanCapitalAnalysis/talks/blob/master/distribution/research_skills/02_mathematical_modeling.pdf)
 
 #### [Returns to schooling](https://github.com/HumanCapitalAnalysis/course/blob/master/distribution/02_returns_schooling.pdf)
 
