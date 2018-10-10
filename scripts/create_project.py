@@ -5,6 +5,6 @@ import os
 
 # We build all lectures and update the distribution.
 os.chdir('lectures')
-subprocess.check_call(['./create_slides', '--update'])
+subprocess.check_call(['./create', '--update'])
 os.chdir('../')
 
