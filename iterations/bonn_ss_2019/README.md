@@ -5,6 +5,8 @@ We start on April 17th 2019 and meet Wednesdays between 12:15-15:45 in lecture h
 
 **Assistant** [Valerie Stottuth](https://github.com/vstottuth)
 
+We will conduct all course communications using slack, so please be sure to  there [join us](https://join.slack.com/t/humancapitalanalysis/shared_invite/enQtNDQ0ODkyODYyODA2LWEyZjdlNWYwYmUyNzlkOWFkNWJkMGI5M2M4ZWUyMThhNWNiMmJhY2ZjY2E4YzE3NGQ5MzcxZTRhN2QxYjgxYWY) there.
+
 ## Lecture Plan
 
 | Date      | Topic                                                     |
@@ -36,7 +38,7 @@ We discuss some details about the course and in particular student projects.
 
 I present an overview on the NLSY79 dataset as we will encounter numerous empirical analysis based on the dataset throughout the course.
 
-#### Syntopical reading 
+#### Syntopical reading
 
 * [Reading scientific papers](https://github.com/HumanCapitalAnalysis/talks/blob/master/distribution/research_skills/01_reading_scientific_papers.pdf)
 
