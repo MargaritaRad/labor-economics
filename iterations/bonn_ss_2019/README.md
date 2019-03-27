@@ -9,7 +9,7 @@ We start on April 17th 2019 and meet Wednesdays between 12:15-15:45 in lecture h
 
 | Date      | Topic                                                     |
 | ----------| --------------------------------------------------------- |
-| 04/17/19  | Course overview                                           |
+| 04/17/19  | Course details                                            |
 |           | Introduction to the economics of human capital            |
 |           | Introduction to the NLSY79                                |
 | 04/24/19  | Returns to schooling                                      |
@@ -22,15 +22,23 @@ We start on April 17th 2019 and meet Wednesdays between 12:15-15:45 in lecture h
 
 The core lectures are available [here](https://github.com/HumanCapitalAnalysis/economics/blob/master/README.md).
 
-#### [Course overview](https://github.com/HumanCapitalAnalysis/economics/blob/master/iterations/bonn_ss_2018/00_course_outline.pdf)
+#### Kickoff
 
-I briefly review some administrative issues regarding the course.
+* [Introduction to students](https://github.com/peisenha/intro_to_students/blob/master/dist/eisenhauer-introduction.pdf)
 
-#### [Introduction to the NLSY79](https://github.com/OpenSourceEconomics/nlsy_dataset/blob/master/distribution/presentation.pdf)
+I briefly introduce my research background and provide a basic overview on my teaching efforts.
+
+* [Course details](https://github.com/HumanCapitalAnalysis/economics/blob/master/iterations/bonn_ss_2019/00_course_outline.pdf)
+
+We discuss some details about the course and in particular student projects.
+
+* [Introduction to the NLSY79](https://github.com/OpenSourceEconomics/nlsy_dataset/blob/master/distribution/presentation.pdf)
 
 I present an overview on the NLSY79 dataset as we will encounter numerous empirical analysis based on the dataset throughout the course.
 
-### [Reading scientific papers](https://github.com/HumanCapitalAnalysis/talks/blob/master/distribution/research_skills/01_reading_scientific_papers.pdf)
+#### Syntopical reading 
+
+* [Reading scientific papers](https://github.com/HumanCapitalAnalysis/talks/blob/master/distribution/research_skills/01_reading_scientific_papers.pdf)
 
 We discuss the research reported in Lagakos & al. (2018) in detail, trying to deduce some general lessons on how to read scientific papers in general.
 
