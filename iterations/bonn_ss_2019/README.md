@@ -11,9 +11,8 @@ We will conduct all course communications using slack, so please be sure to  the
 
 | Date      | Topic                                                     |
 | ----------| --------------------------------------------------------- |
-| 04/17/19  | Course details                                            |
+| 04/17/19  | Kickoff                                                   |
 |           | Introduction to the economics of human capital            |
-|           | Introduction to the NLSY79                                |
 | 04/24/19  | Returns to schooling                                      |
 | 05/08/19  | Static model of educational choice                        |
 | 05/22/19  | Tutorials                                                 |
