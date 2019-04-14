@@ -1,0 +1,8 @@
+name: labor-economics
+dependencies:
+  - python=3.5
+  - matplotlib
+  - statsmodels
+  - jupyter
+  - seaborn
+  - jupyterlab
