@@ -94,22 +94,13 @@ Thus, wage growth must be log linear in schooling and $\mu(s) = \mu(0)e^{\rho_s 
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
-\begin{frame}
-\citeA{Heckman.2006a} thus establish ... \vspace{0.5cm}
-
-\begin{quote}
-After allowing for taxes, tuition, variable length of working life, and a flexible relationship between earnings, schooling and experience, the coefficient on years of schooling in a log earnings regression need no longer equal the internal rate of return.
-\end{quote}
-\end{frame}
-%-------------------------------------------------------------------------------
-%-------------------------------------------------------------------------------
 \begin{frame}\textbf{Structural Approach for the IRR}\vspace{0.3cm}\\
 
-The internal rate of return for schooling level $s_1$ versus $s_2$, $r(s_1, s_2)$ solves ...
+The internal rate of return for schooling level $s_1$ versus $s_2$, $r_I(s_1, s_2)$ solves ...
 
 \begin{align*}
-&\int_{0}^{T(s_1) - s_1} (1 - \tau)e^{-r(x + s_1)}Y(s_1, x) dx  - \int_{0}^{s_1} v e^{-r z} dz\\
-&\qquad\qquad =  \int_{0}^{T(s_2) - s_2} (1 - \tau)e^{-r(x + s_2)}Y(s_2, x) dx - \int_{0}^{s_2} v e^{-r z} dz
+&\int_{0}^{T(s_1) - s_1} (1 - \tau)e^{-r_I(x + s_1)}Y(s_1, x) dx  - \int_{0}^{s_1} v e^{-r z} dz\\
+&\qquad\qquad =  \int_{0}^{T(s_2) - s_2} (1 - \tau)e^{-r_I(x + s_2)}Y(s_2, x) dx - \int_{0}^{s_2} v e^{-r z} dz
 \end{align*}
 
 \end{frame}
@@ -122,7 +113,7 @@ Back to Mincer ....
 \item no taxes and no direct or psychic costs of schooling \\\vspace{0.3cm}
 \hspace{0.3cm}$\Rightarrow v = 0$ and $\tau = 0$\vspace{0.3cm}
 \begin{align*}
-&\int_{0}^{T(s_1) - s_1} e^{-r(x + s_1)}Y(s_1, x) dx  = \int_{0}^{T(s_2) - s_2} e^{-r(x + s_2)}Y(s_2, x) dx
+&\int_{0}^{T(s_1) - s_1} e^{-r_I(x + s_1)}Y(s_1, x) dx  = \int_{0}^{T(s_2) - s_2} e^{-r_I(x + s_2)}Y(s_2, x) dx
 \end{align*}
 \end{itemize}\end{frame}
 %-------------------------------------------------------------------------------
@@ -132,7 +123,7 @@ Back to Mincer ....
 \item equal work-lives irrespective of years of schooling \\\vspace{0.3cm}
 \hspace{0.3cm}$\Rightarrow T = T(s_1) - s_1 = T(s_2) - s_2$\vspace{0.3cm}
 \begin{align*}
-&\int_{0}^T e^{-r(x + s_1)}Y(s_1, x) dx  = \int_{0}^T e^{-r(x + s_2)}Y(s_2, x) dx
+&\int_{0}^T e^{-r_I(x + s_1)}Y(s_1, x) dx  = \int_{0}^T e^{-r_I(x + s_2)}Y(s_2, x) dx
 \end{align*}
 \end{itemize}
 \end{frame}
@@ -143,7 +134,7 @@ Back to Mincer ....
 \item parallelism in experience across schooling categories \\\vspace{0.3cm}
 \hspace{0.3cm}$\Rightarrow Y(s, x) = \mu(s)\psi(x)$\vspace{0.3cm}
 \begin{align*}
-&\int_{0}^T e^{-r(x + s_1)} \mu(s)\psi(x) dx  = \int_{0}^T e^{-r(x + s_2)} \mu(s)\psi(x)dx
+&\int_{0}^T e^{-r_I(x + s_1)} \mu(s)\psi(x) dx  = \int_{0}^T e^{-r_I(x + s_2)} \mu(s)\psi(x)dx
 \end{align*}
 \end{itemize}
 \end{frame}
@@ -154,7 +145,7 @@ Back to Mincer ....
 \item linearity of log earnings in schooling \\\vspace{0.3cm}
 \hspace{0.3cm}$\Rightarrow\quad \mu(s) = \mu(0)e^{\rho_s s}$\vspace{0.3cm}
 \begin{align*}
-&\int_{0}^T e^{-r(x + s_1)} \mu(0)e^{\rho_s s_1}\psi(x) dx  = \int_{0}^T e^{-r(x + s_2)} \mu(0)e^{\rho_s s_2}\psi(x)dx
+&\int_{0}^T e^{-r_I(x + s_1)} \mu(0)e^{\rho_s s_1}\psi(x) dx  = \int_{0}^T e^{-r_I(x + s_2)} \mu(0)e^{\rho_s s_2}\psi(x)dx
 \end{align*}
 \end{itemize}
 \end{frame}
@@ -163,9 +154,18 @@ Back to Mincer ....
 \begin{frame}
 After some further rearranging ...
 \begin{align*}
-e^{(\rho_s - r)s_1} & = e^{(\rho_s - r) s_2} \\
-\Rightarrow \rho_s  & = r
+e^{(\rho_s - r_I)s_1} & = e^{(\rho_s - r_I) s_2} \\
+\Rightarrow \rho_s  & = r_I
 \end{align*}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
+\citeA{Heckman.2006a} thus establish ... \vspace{0.5cm}
+
+\begin{quote}
+After allowing for taxes, tuition, variable length of working life, and a flexible relationship between earnings, schooling and experience, the coefficient on years of schooling in a log earnings regression need no longer equal the internal rate of return.
+\end{quote}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
