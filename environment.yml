@@ -1,0 +1,19 @@
+name: teaching_labor
+
+channels:
+- conda
+- conda-forge
+
+dependencies:
+- numpy
+- pandas
+- flake8
+- pytest
+- pandas 
+- jupyterlab
+- matplotlib
+- seaborn
+- jupyter
+- jupyter_contrib_nbextensions
+- jupyter_nbextensions_configurator
+- pip
