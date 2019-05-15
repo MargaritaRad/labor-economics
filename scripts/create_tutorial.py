@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""This script creates the tutorial files."""
+"""This script creates and updates the tutorial files."""
 import subprocess as sp
 import argparse
 import shutil
