@@ -8,7 +8,3 @@ os.chdir('lectures')
 subprocess.check_call(['./create', '--update'])
 os.chdir('../')
 
-# We build the tutorial-
-os.chdir('tutorial')
-subprocess.check_call(['python', '../scripts/create_tutorial.py'])
-os.chdir('../')
