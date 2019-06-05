@@ -37,14 +37,6 @@ We study the economics and econometrics of the generalized Roy model. We discuss
 
 We also study the seminal paper on the career decision of young men in [Keane & Wolpin (1997)](https://github.com/HumanCapitalAnalysis/talks/blob/master/distribution/seminal_papers/04_Keane_al_1997.pdf). We explore the capabilities of the [``respy`` package](http://respy.readthedocs.io) to estimate the model presented there.
 
-#### [Intergenerational transmission of human capital](https://github.com/HumanCapitalAnalysis/labor_economics/blob/master/distribution/06_intergenerational_transmission.pdf)
-
-We study the mechanisms driving the intergenerational transmission of human capital.
-
-#### [Human capital policy](https://github.com/HumanCapitalAnalysis/labor_economics/blob/master/distribution/07_human_capital_policy.pdf)
-
-We review examples of human capital policy and assess their effectiveness.
-
 ## Readings <a name="readings"></a>
 
 #### Introduction to the economics of human capital
@@ -86,20 +78,6 @@ II: Using the marginal treatment effect to organize alternative economic estimat
 * Keane, M. P., & Wolpin, K. I. (1997). [The career decisions of young men.](https://www.journals.uchicago.edu/doi/abs/10.1086/262080) *Journal of Political Economy, 105*(3), 473–522.
 
 * Keane, M. P., Todd, P. E., & Wolpin, K. I. (2011). [The structural estimation of behavioral models: Discrete choice dynamic programming methods and applications.](https://www.sciencedirect.com/science/article/pii/S0169721811004102) In O. Ashenfelter & D. Card (Eds.), *Handbook of labor economics* (Vol. 4a, pp. 331–461). Amsterdam, Netherlands: Elsevier Science.
-
-#### Intergenerational transmission of human capital
-
-* Cunha, F., Heckman, J. J., & Schennach, S. M. (2010). [Estimating the technology of cognitive and noncognitive skill formation.](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA6551) *Econometrica, 78*(3), 883–931.
-
-* Heckman, J. J., & Mosso, S. (2014). [The economics of human development and social mobility.](https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080213-040753) *Annual Review of Economics, 6*(1), 689–733.
-
-#### Human capital policy
-
-* Heckman, J. J., & Krueger, A. B. (2004). *[Inequality in America: What role for human capital policies?.](https://mitpress.mit.edu/books/inequality-america)* Cambridge, MA: MIT Press.
-
-* Heckman, J. J., Moon, S. H., Pinto, R., Savelyev, P. A., & Yavitz, A. (2010). [The rate of return to the HighScope Perry Preschool Program.](https://www.sciencedirect.com/science/article/pii/S0047272709001418) *Journal of Public Economics, 94*(1–2), 114–128.
-
-* Card, D., Kluve, J., & Weber, A. (2010). [Active labour market policy evaluations: A meta‐analysis.](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0297.2010.02387.x) *The Economic Journal, 120*(548), F452–F477.
 
 ## References <a name="references"></a>
 
