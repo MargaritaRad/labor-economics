@@ -12,9 +12,6 @@
 		U_D     & = F_V(V)
 	\end{align*}
 
-\begin{itemize}
-\item $V$ is unobserved and captures the individual's dislike of treatment.
-\end{itemize}
 \end{frame}
 
 %-------------------------------------------------------------------------------
@@ -65,22 +62,31 @@
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
-	\textbf{Selection Problem}
+\textbf{Selection Problem}
+
 	\begin{align*}
-		E[Y\mid D = 1] - E[Y\mid D = 0] & = \underbrace{E[Y_1 - Y_0]}_{B^{ATE}} \\
-		& + \underbrace{E[Y_1 - Y_0 \mid D = 1] - E[Y_1 - Y_0]}_{\text{Selection on gains}} \\
-		& + \underbrace{E[Y_0\mid D = 1] - E[Y_0 \mid D = 0]}_{\text{Selection on levels}}
+		E[Y\mid D = 1] - E[Y\mid D = 0] & = \underbrace{E[Y_1 - Y_0\mid D = 1]}_{B^{TT}} \\
+		& + \underbrace{E[Y_0\mid D= 1]- E[Y_0 \mid D = 0]}_{\text{Selection bias}}
 	\end{align*}
 \end{frame}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
 	\begin{align*}
-		E[Y\mid D = 1] - E[Y\mid D = 0] & = \underbrace{E[Y_1 - Y_0\mid D = 1]}_{B^{TT}} \\
-		& + \underbrace{E[Y_0\mid D= 1]- E[Y_0 \mid D = 0]}_{\text{Selection Bias}}
+		E[Y\mid D = 1] - E[Y\mid D = 0] & = \underbrace{E[Y_1 - Y_0]}_{B^{ATE}} \\
+		& + \underbrace{E[Y_1 - Y_0 \mid D = 1] - E[Y_1 - Y_0]}_{\text{Sorting on gains}} \\
+		& + \underbrace{E[Y_0\mid D = 1] - E[Y_0 \mid D = 0]}_{\text{Sorting on levels}}
 	\end{align*}
-	\(\Rightarrow\) the bias depends on the parameter of interest
 \end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}
+	\begin{itemize}\setlength\itemsep{1em}
+	\item bias depends on the parameter of interest
+	\item selection bias as sorting on levels
+	\end{itemize}
+\end{frame}
+
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \begin{frame}
