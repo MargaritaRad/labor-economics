@@ -27,15 +27,18 @@ if __name__ == '__main__':
     is_update = parser.parse_args().update
 
     if is_complete:
-        for dirname in glob.glob("0*"):
-            os.chdir(dirname)
-            compile_single(is_update)
-            os.chdir('../')
+        for dirname in glob.glob("*_*"):
+            try:
+                os.chdir(dirname)
+                compile_single(is_update)
+                os.chdir('../')
+            except NotADirectoryError:
+                pass
 
         # I also want to have a complete deck of slides available. This is not intended for
         # public distribution.
         fnames = []
-        for fname in sorted(glob.glob("0*")):
+        for fname in sorted(glob.glob("*_*")):
             fnames += [fname + '/main.pdf']
         cmd = 'pdftk ' + ' '.join(fnames) + ' cat output course_deck.pdf'
         subprocess.check_call(cmd, shell=True)
