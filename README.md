@@ -15,7 +15,7 @@ Please use the table of content to navigate the rest of the material.
 
 ## Lectures <a name="lectures"></a>
 
-We provide a brief description of the individual lectures and link the their slides. All lectures are also available for download as a single file ??? [here](https://github.com/HumanCapitalAnalysis/labor-economics/blob/master/distribution/course_deck.pdf). The material for our tutorial session is available [online](https://github.com/HumanCapitalAnalysis/labor-economics/blob/master/lectures/99-tutorial/slides.pdf) as well.
+We provide a brief description of the individual lectures and link the their slides. The material for our tutorial session is available [online](https://github.com/HumanCapitalAnalysis/labor-economics/blob/master/lectures/99-tutorial/slides.pdf) as well.
 
 #### [Introduction](https://github.com/HumanCapitalAnalysis/labor-economics/blob/master/lectures/01-introduction/slides.pdf)
 
